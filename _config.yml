@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: The FeyTechnologist
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Musings of a Technologist. V2 of Adina Shanholtz's blog.
+description:  Musings of a Technologist. V2 of Adina Shanholtz's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: @FeyTechnologist
@@ -24,7 +23,8 @@ github_username:  ashanhol
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes" 
 plugins:
   - jekyll-feed
 
