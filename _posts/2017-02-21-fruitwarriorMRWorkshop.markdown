@@ -21,7 +21,9 @@ In addition, please download the latest HoloToolkit Unity package from their [re
 #Setting Up
 
 1. Make a new 3D project.
-
+<figure>
+  <img src="{{ '/assets/images/new3dproject.png' | relative_url }}" alt="New 3D Unity Project">
+</figure>
 
 
 
