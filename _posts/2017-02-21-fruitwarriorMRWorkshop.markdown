@@ -2,7 +2,7 @@
 layout: post
 title:  "FruitWarrior MR HoloLens Workshop"
 date:   2018-03-30 15:36:20 -0400
-categories: Game Design, Game Dev, Game Development, Holographic, HoloLens, MR, Spatial Mapping, Spatial Sound, Unity, VR  
+#categories:  [ "Game Design", "Game Dev", "Game Development", Holographic, HoloLens, MR, "Spatial Mapping", "Spatial Sound", Unity, VR ]
 ---
 
 Let’s do something cool with [Microsoft HoloLens][hololens], the world’s first self-contained, untethered head-mounted holographic computing device for Mixed Reality!
