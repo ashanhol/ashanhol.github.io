@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "FruitWarrior MR HoloLens Workshop"
-date:   2018-03-30 15:36:20 -0400
+date:   2017-02-21 15:36:20 -0400
 #categories:  [ "Game Design", "Game Dev", "Game Development", Holographic, HoloLens, MR, "Spatial Mapping", "Spatial Sound", Unity, VR ]
 ---
 
@@ -14,11 +14,11 @@ YOUTUBE TODO
 
 Github link to the finished project [here](http://web.archive.org/web/20170704165204/https://github.com/ashanhol/FruitWarriorMR).
 
-#Before Starting
+# Before Starting
 Before starting, make sure you have all the tools installed from the Installation Checklist [here][installl-check]. This includes Visual Studio 2015 Update 3, the HoloLens emulator if you don’t have your own device, and Unity 5.5.
 In addition, please download the latest HoloToolkit Unity package from their [releases][releases]. At the time of writing this guide, that’s HoloToolkit-Unity-v1.5.5.0.unitypackage.
 
-#Setting Up
+# Setting Up
 
 1. Make a new 3D project.
 <figure>
