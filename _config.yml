@@ -28,6 +28,20 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
 
+#These defaults will set all posts to be configured to use the single layout
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
