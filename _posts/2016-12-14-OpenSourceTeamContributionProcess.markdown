@@ -6,7 +6,7 @@ Breaking it down:
 * [Workflow Tooling](#tools-for-workflow)
 * [Working with teammates](#working-with-teammates)
 
-# [Step One- Starting](#step-one-starting)
+# [Step One Starting](#step-one-starting)
 
 
 Despite my years of experience and the fancy piece of paper that says I officially studied computer science in college, I had never “ported” something from one technology to another. I didn’t even know where to start. We had two options, either totally re-write the code from scratch and redesign the architecture using the original JabbR as a guideline (the refactor and re-architect option), or copy large sections of the code base and rewrite only what we need to. Luckily for us, we had help from [David Fowler](https://twitter.com/davidfowl), the original creator of JabbR, who helped us make the decision. At his suggestion, we started with a brand new ASP.NET Core project and brought over files ones by one, setting up what we needed in order to make it run. Just run, not necessarily do anything.
