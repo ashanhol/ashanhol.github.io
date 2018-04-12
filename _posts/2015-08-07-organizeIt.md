@@ -10,7 +10,6 @@ So I have ADHD. That means a lot of things, but other than the obvious focus iss
 
 I’m sure you’ve seen “that one computer” where someone puts all their stuff on their desktop, or they don’t create new folders and you can’t find anything. Man I’ve even see someone use their trash to keep important documents. I am thankful to say my clutter is not that disorganized, but I’m bad about computer organization in the other way. I’m the kind of person who forgets that I left a program or two open, or have so many tabs open you can barely see the icons (and yes they’re **ALL NECESSARY**). \*see example below\*
 
-** Luna Note: Probably an issue b/c it kept coming up as a webp file **
 ![Screenshot 4](http://ashanhol.github.io/assets/images/Screenshot-4.png)
 
 Obviously this slows my computer down and eats up more memory and CPU than needed. I personally want to save my computer from an early death. And I can! In fact, Windows 10 makes it really easy to spread out open applications and unclutter your desktop.
