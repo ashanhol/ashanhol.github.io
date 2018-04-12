@@ -1,10 +1,14 @@
 # Progress Log
 
 ## Finished:
+* FruitWarrior MR HoloLens Workshop
 * Open Source Team Contribution Process
+* Music + Wearables Workshop with Women Who Code
+* Getting Started with The OneDrive API
 
-## Need to Finish:
-* FruitWarrior MR
+## In-Progress:
+* Contributing to Open Source
+    * Needs other posts to be added first, or else links will be broken
 
 ## Currently Working on:
 * Contributing to Open Source
