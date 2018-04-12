@@ -5,7 +5,7 @@ date:   2016-11-21 14:46:14 -0400
 #categories:  [ ".NET", ".NET Core", "cross platform", "dotnet core", "github", "Open Source", "OSS ]
 ---
 
-It’s been a while since I made a blog post. Looking back, seems like I jumped from project to project, since the last thing I did was release [Silent Dream](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/silent-dream/. I’m excited to talk about what I’ve been up to!
+It’s been a while since I made a blog post. Looking back, seems like I jumped from project to project, since the last thing I did was release [Silent Dream](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/silent-dream/). I’m excited to talk about what I’ve been up to!
 
 The last four months I have been contributing to an open source project called [JabbR](https://web.archive.org/web/20170704174128/https://github.com/MachUpskillingFY17/JabbR-Core. I’ve learned so much from this experience, I’m breaking it up into other blog posts about our [team process](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/open-source-team-contribution-process/, .NET Core technology, and bundling.
 
