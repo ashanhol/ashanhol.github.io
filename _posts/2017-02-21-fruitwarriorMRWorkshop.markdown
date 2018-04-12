@@ -12,7 +12,7 @@ This guide will walk through creating Fruit Warrior MR, which definitely has no 
 Check out the finished game:
 YOUTUBE TODO
 
-Github link to the finished project [here](http://web.archive.org/web/20170704165204/https://github.com/ashanhol/FruitWarriorMR).
+Github link to the finished project [here](https://github.com/ashanhol/FruitWarriorMR).
 
 # Before Starting
 Before starting, make sure you have all the tools installed from the Installation Checklist [here][installl-check]. This includes Visual Studio 2015 Update 3, the HoloLens emulator if you don’t have your own device, and Unity 5.5.
