@@ -14,6 +14,6 @@ Customizable file thumbnail images for delivering a more integrated experience a
 ![alttext](http://ashanhol.github.io/assets/images/OneDrive-API-launch-blog-post-banner.png)
 
 Step-By-Step Instructions
-You can find step-by-step setup and how-to articles as well as coding tips and tricks for using the Microsoft OneDrive API [here](https://web.archive.org/web/20170517222252/https://dev.onedrive.com/README.htm).
+You can find step-by-step setup and how-to articles as well as coding tips and tricks for using the Microsoft OneDrive API [here](https://dev.onedrive.com/README.htm).
 
-Click [here](https://web.archive.org/web/20170517222252/https://dev.onedrive.com/index.htm) for the developer website.
+Click [here](https://dev.onedrive.com/index.htm) for the developer website.
