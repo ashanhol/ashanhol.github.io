@@ -1,3 +1,10 @@
+---
+layout: single
+title:  "Open Source Team Contribution Process"
+date:   2016-12-14 15:53:10 -0400
+#categories:  [ ".NET", ".NET Core", "C#", "coding", "Dev Diary", "development", "dotnet core", "Git", "github", "JabbR", "Open Source", "OSS", "programming", "projects" ]
+---
+
 A little bit ago I made a [blog post](http://ashanhol.github.io/contributing-to-open-source/) detailing an open source project I worked on called JabbR. It was waaaaay to hard to cram everything we learned into one blog post, so I’m dedicating this to discussing the “JabbR-Core Process”.
 Breaking it down:
 
