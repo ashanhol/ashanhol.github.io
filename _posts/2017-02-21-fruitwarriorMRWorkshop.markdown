@@ -52,7 +52,7 @@ ourassets
 ![Settings](http://ashanhol.github.io/assets/images/fruit_warrior/settings.png)
 
 You should be testing your application either on the emulator or on a HoloLens device throughout this guide.
-First you have to build a Visual Studio solution, which you can do from the HoloToolkit Menu Bar -> Build Window. Then check out the Build and Deploy section [here](https://developer.microsoft.com/en-us/windows/holographic/holograms_100.
+First you have to build a Visual Studio solution, which you can do from the HoloToolkit Menu Bar -> Build Window. Then check out the Build and Deploy section [here](https://developer.microsoft.com/en-us/windows/holographic/holograms_100).
 
 ![Build](http://ashanhol.github.io/assets/images/fruit_warrior/build.png)
 
