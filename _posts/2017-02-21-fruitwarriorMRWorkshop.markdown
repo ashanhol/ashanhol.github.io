@@ -5,9 +5,9 @@ date:   2017-02-21 15:36:20 -0400
 #categories:  [ "Game Design", "Game Dev", "Game Development", Holographic, HoloLens, MR, "Spatial Mapping", "Spatial Sound", Unity, VR ]
 ---
 
-Let’s do something cool with [Microsoft HoloLens][hololens], the world’s first self-contained, untethered head-mounted holographic computing device for Mixed Reality!
+Let’s do something cool with [Microsoft HoloLens](https://www.microsoft.com/en-us/hololens), the world’s first self-contained, untethered head-mounted holographic computing device for Mixed Reality!
 Mixed reality blends 3D holographic content into your physical world, giving holograms real-world context and scale, allowing you to interact with both digital content and the world around you.
-This guide will walk through creating Fruit Warrior MR, which definitely has no relation to the game Fruit Ninja whatsoever. This project takes concepts from [Mixed Reality Academy][mr-academy], mixed with assets from the [MRToolkit][mrtk] to teach concepts such as HoloLens Gestures, Voice Commands, Spatial Sound, and Spatial Mapping.
+This guide will walk through creating Fruit Warrior MR, which definitely has no relation to the game Fruit Ninja whatsoever. This project takes concepts from [Mixed Reality Academy](https://developer.microsoft.com/en-us/windows/mixed-reality/academy), mixed with assets from the [MRToolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity) to teach concepts such as HoloLens Gestures, Voice Commands, Spatial Sound, and Spatial Mapping.
 
 Check out the finished game: [![Fruit Warrior MR](https://ashanhol.github.io/assets/images/fruit_warrior/youtube-game-thumb.png)](https://youtu.be/eU6AMWEtKQc)
 
@@ -641,8 +641,3 @@ To practice game design- there’s many ways to to improve the game right here.
 * Add a soundtrack and more levels!
 More HoloLens- there are more tutorials on the [Holographic Academy website](https://developer.microsoft.com/en-us/windows/holographic/academy). After you’ve completed the tutorials, try making your own apps for HoloLens that expand on aspects we touched on, such as [more gestures](https://developer.microsoft.com/en-us/windows/holographic/gestures), or Placement or Occlusion in [spatial mapping](https://developer.microsoft.com/en-us/windows/holographic/spatial_mapping).
 
-[hololens]: https://www.microsoft.com/en-us/hololens
-[mr-academy]: https://developer.microsoft.com/en-us/windows/mixed-reality/academy
-[mrtk]: https://github.com/Microsoft/MixedRealityToolkit-Unity
-[install-check]:https://docs.microsoft.com/en-us/windows/mixed-reality/install-the-tools
-[releases]: https://github.com/Microsoft/MixedRealityToolkit-Unity/releases
