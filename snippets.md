@@ -14,6 +14,9 @@ Image:
 Local Image:
 ![alttext](http://ashanhol.github.io/assets/images/video_unavailable.png)
 
+Local Image - FruitWarrior:
+![alttext](http://ashanhol.github.io/assets/images/fruit_warrior/video_unavailable.png)
+
 Preview Image for Video:
 [![This video is no longer available.](http://ashanhol.github.io/assets/images/video_unavailable.png)](https://web.archive.org/web/20170517011022if_/https://vid.me/e/NpC8?stats=1&tools=1)
 
