@@ -9,7 +9,7 @@ Let’s do something cool with [Microsoft HoloLens][hololens], the world’s fir
 Mixed reality blends 3D holographic content into your physical world, giving holograms real-world context and scale, allowing you to interact with both digital content and the world around you.
 This guide will walk through creating Fruit Warrior MR, which definitely has no relation to the game Fruit Ninja whatsoever. This project takes concepts from [Mixed Reality Academy][mr-academy], mixed with assets from the [MRToolkit][mrtk] to teach concepts such as HoloLens Gestures, Voice Commands, Spatial Sound, and Spatial Mapping.
 
-Check out the finished game: [![Fruit Warrior MR](http://ashanhol.github.io/assets/images/fruit_warrior/youtube-game-thumb.png)](https://youtu.be/eU6AMWEtKQc)
+Check out the finished game: [![Fruit Warrior MR](https://ashanhol.github.io/assets/images/fruit_warrior/youtube-game-thumb.png)](https://youtu.be/eU6AMWEtKQc)
 
 
 Github link to the finished project [here](https://github.com/ashanhol/FruitWarriorMR).
