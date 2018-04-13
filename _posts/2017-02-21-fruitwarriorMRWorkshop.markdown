@@ -9,8 +9,8 @@ Let’s do something cool with [Microsoft HoloLens][hololens], the world’s fir
 Mixed reality blends 3D holographic content into your physical world, giving holograms real-world context and scale, allowing you to interact with both digital content and the world around you.
 This guide will walk through creating Fruit Warrior MR, which definitely has no relation to the game Fruit Ninja whatsoever. This project takes concepts from [Mixed Reality Academy][mr-academy], mixed with assets from the [MRToolkit][mrtk] to teach concepts such as HoloLens Gestures, Voice Commands, Spatial Sound, and Spatial Mapping.
 
-Check out the finished game:
-YOUTUBE TODO
+Check out the finished game: [![Fruit Warrior MR](https://ashanhol.github.io/assets/images/fruit_warrior/youtube-game-thumb.png)](https://youtu.be/eU6AMWEtKQc)
+
 
 Github link to the finished project [here](https://github.com/ashanhol/FruitWarriorMR).
 
@@ -575,6 +575,7 @@ public class SpeechManager : MonoBehaviour
 
 9. Switch back to the “Main” scene (your main gameplay level). Drag the Speech Manager script onto your GameController object.
 10. As you might have seen in the Speech Manager script above, there are a couple of voice commands that we haven’t yet coded in. We’ll be adding two functions to the GameController script, OnRestart() and OnMenu(), so that “Restart Game” will restart the game and “Main Menu” will take us back to the main menu. We’ll also update FixedUpdate() so that we go back to the main menu when the game ends.
+
 ```cs
 using UnityEngine.SceneManagement;
  
