@@ -25,3 +25,5 @@ site/_site/
 test/dest
 tmp/*
 contributingToOpenSource.markdown
+snippets.md
+Time Log.txt
