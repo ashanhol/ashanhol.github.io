@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Music + Wearables Workshop with Women Who Code"
-date:   2016-11-21 14:46:14 -0400        
+date:   2015-08-05 13:01:05 -0400        
 #categories:  [ "arduino", "makeymakey", "music", "wearables", "women who code" ]
 ---
 
