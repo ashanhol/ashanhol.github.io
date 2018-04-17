@@ -7,9 +7,6 @@ date:   2015-10-12 15:51:13 -0400
 
 # Deploying a Website to Azure
 
-12 Oct, 2015  in Blog Posts  tagged Azure / coding / deploying a website / github / hackathon / programming / visual studio / website by adinas
-Deploying a website from source control to Azure
-
 We have our website, now how do we get it on the cloud? Using popular source control systems such as GitHub, BitBucket, or CodePlex, it’s easy to use Azure’s built-in features to automate web app deployment. Azure makes it easy to roll back to earlier deployments if necessary.
 
 ![Changing the Deployment to Git](http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/azure5-disconnect.png?w=778)
