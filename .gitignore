@@ -25,4 +25,4 @@ site/_site/
 test/dest
 tmp/*
 time log*
-snippets
+snippets.md
