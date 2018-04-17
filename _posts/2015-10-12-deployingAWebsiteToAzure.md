@@ -16,10 +16,9 @@ We have our website, now how do we get it on the cloud? Using popular source con
 
 <!-- List -->
 How to set up step-by-step
-
-    There are step by step instructions here, starting at “Deploy your Project”.
-    Other useful (more in depth) source here.
-    A video on deploying from GitHub with Kudu here.
+* There are step by step instructions here, starting at “Deploy your Project”.
+* Other useful (more in depth) source here.
+* A video on deploying from GitHub with Kudu here.
 
  
 # Deploying a standard website with Azure using Visual Studio Community
@@ -38,8 +37,7 @@ How to set up step-by-step
 Want to use the useful Python framework Flask with the Azure cloud? Then look no further! You’ll create the website from the Azure gallery, set up Git deployment, and clone and run the repository locally. When you need to make changes, you can commit and push them to Azure.
 
 ![ptvs-solution-flask](https://web.archive.org/web/20170430011848/http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/ptvs-solution-flask.png)
-
-![Coding a Flask web app in Visual Studio](https://web.archive.org/web/20170716064222im_/http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/ptvs-solution-flask.png?w=600)
+<caption>Coding a Flask web app in Visual Studio</caption>
 
 ![windows-browser-flask](https://web.archive.org/web/20170430011848/http://i1.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/windows-browser-flask.png)
 
