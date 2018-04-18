@@ -24,6 +24,7 @@ We have our website, now how do we get it on the cloud? Using popular source con
 Visual Studio is a Microsoft IDE that is useful for web development and makes it easy to deploy web apps. Visual Studio offers more features, such as creating and deleting web apps, viewing logs as they are created in real-time, debugging remotely, and most importantly, integrating with source control systems such as Git repositories.
 
 ![Publishing the application in Visual Studio](http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/choosepublish.png?w=526)
+<em>Publishing the application in Visual Studio</em>
 
 **How to set up step-by-step**
 * This [tutorial](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/) is for a project coded in ASP.NET, however the steps are still the same whether you have a Visual Studio project in HTML/CSS, or JavaScript.
@@ -33,15 +34,13 @@ Visual Studio is a Microsoft IDE that is useful for web development and makes it
 Want to use the useful Python framework Flask with the Azure cloud? Then look no further! You’ll create the website from the Azure gallery, set up Git deployment, and clone and run the repository locally. When you need to make changes, you can commit and push them to Azure.
 
 ![ptvs-solution-flask](https://web.archive.org/web/20170430011848/http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/ptvs-solution-flask.png)
-
-<!-- <caption>Coding a Flask web app in Visual Studio</caption> -->
+<em>Coding a Flask web app in Visual Studio</em>
 
 ![Running a Flask web app locally.](https://web.archive.org/web/20170430011848/http://i1.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/windows-browser-flask.png)
-
-<!-- Running a Flask web app locally. -->
+<em>Running a Flask web app locally.</em>
 
 <!-- List -->
-**How to set up step-by-st**ep
+**How to set up step-by-step**
 
 * [Here](https://azure.microsoft.com/en-us/documentation/articles/web-sites-python-create-deploy-flask-app/) are step-by-step instructions on deploying flask to Azure.
 * For those that would like a video walkthrough, module 6 of [this video](http://www.microsoftvirtualacademy.com/training-courses/introduction-to-creating-websites-using-python-and-flask) will help.
@@ -52,9 +51,10 @@ Want to use the useful Python framework Flask with the Azure cloud? Then look no
 Want to use Ruby on Rails with the Azure cloud? Then look no further! You’ll create an Azure VM with a Linux image and deploy it to the cloud.
 
 ![Virtual Machines List](http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/vmlist.png?w=650)
+<em>Virtual Machines List</em>
 
 ![Ruby on Rails web app running on Azure](https://web.archive.org/web/20170430011848/http://i1.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/basicrailscloud.png)
-
+<em>Ruby on Rails web app running on Azure</em>
 <!-- Ruby on Rails web app running on Azure -->
 
 <!-- List -->
