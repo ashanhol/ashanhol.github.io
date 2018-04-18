@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 img + em {
+    display: block;
     font-size: 16px;
     font-style: normal;
     // padding: 0 0 0 10px;
