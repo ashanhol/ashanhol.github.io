@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Defense Brigade: Game Design with Unity3D"
-date:   2015-11-24 21:02:26 -0400 
+date:   2015-11-24 21:03:26 -0400 
 #categories:  [ "Dev Diary", "Game Design", "programming", "Unity" ]
 ---
 
