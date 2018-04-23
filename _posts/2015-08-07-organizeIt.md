@@ -2,7 +2,7 @@
 layout: single
 title:  "Organize It!"
 date:   2015-08-07 14:46:14 -0400        
-#categories:  ["Adhd", "executive functioning disorder", "organization", "task view", "virtual desktop", "windows 10"
+#categories:  [ "Adhd", "executive functioning disorder", "organization", "task view", "virtual desktop", "windows 10" ]
  "arduino", "makeymakey", "music", "wearables", "women who code" ]
 ---
 
