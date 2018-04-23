@@ -28,39 +28,29 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 * Downloading the Cardboard SDK for Unity (as well as their demo if you wish).
 
 # Setting Up
-1. Make a new project.
-    * First thing you should do is make a new project. This will bring up the project window.
 
-![Unity - New Project Window](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture1.png)
-<em style="display: block;">The Project Window</em>
+<ol>
+    <li>Make a new project.
+        <ul>
+            <li>First thing you should do is make a new project. This will bring up the project window.</li><br />
+            <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture1.png" alt="Unity - New Project Window">
+            <em style="display: block;">The Project Window</em>            
+            <li><span style="font-weight: bold;">Make sure</span> you select 3D. Give your project a good name. I named mine CollectEmAll.
+        </ul>
+    </li>
+    <li>Import the Cardboard assets.
+        <ul>
+            <li>* Under Assets -> Import Package -> Custom Package, select the cardboard SDK.</li><br />
+            <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Screenshot-49.png" alt="Menu for importing the Cardboard assets">
+            <em style="display: block;">Menu for importing the Cardboard assets</em>
+            <li>Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use. </li>
+        </ul>
+    </li>
+    <li>3. Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.</li><br />
+    <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture2.png" alt="Saving the scene">
+    <em style="display: block;">Saving the scene</em></li>
+</ol>
 
-<ul>
-    <ul>
-        <li><span style="font-weight: bold;">Make sure</span> you select 3D. Give your project a good name. I named mine CollectEmAll.
-        </li>
-    <ul>
-</ul>
-<p></p>
-2. Import the Cardboard assets.
-    * Under Assets -> Import Package -> Custom Package, select the cardboard SDK.
-
-
-[Menu for importing the Cardboard assets](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Screenshot-49.png)
-<em style="display: block;">Menu for importing the Cardboard assets</em>
-
-<br />
-<ul>
-    <ul>
-        <li>Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use.
-        </li>
-    <ul>
-</ul>
-
-
-3. Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.
-
-![Saving the scene](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture2.png)
-<em style="display: block;">Saving the scene</em>
 
 4. Create a Plane for the ground.
 ![Creating a plane](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png)
