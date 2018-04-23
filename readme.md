@@ -9,6 +9,15 @@
 ## In-Progress:
 * Contributing to Open Source
     * Needs other posts to be added first, or else links will be broken
+* Defense Brigade Unity3d - Part 3
+    * Needs a link correction from adinashanholtz.com
+* Defense Brigade: Game Design with Unity3D
+    * Check Tags
+    * Check Images on all Defense Brigade Posts
+* Five Steps to Making Your First VR Game
+    * Needs Serious Editing
+* PAX East
+    * What was the Uh, no thanks image supposed to be??
 
 ## Currently Working on:
 * Contributing to Open Source
