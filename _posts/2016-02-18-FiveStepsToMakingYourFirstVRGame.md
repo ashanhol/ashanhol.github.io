@@ -40,11 +40,10 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
         </li>
     <ul>
 </ul>
-
+<p></p>
 2. Import the Cardboard assets.
     * Under Assets -> Import Package -> Custom Package, select the cardboard SDK.
 
-<br /> 
 
 [Menu for importing the Cardboard assets](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Screenshot-49.png)
 <em style="display: block;">Menu for importing the Cardboard assets</em>

@@ -20,11 +20,13 @@ And give me that error above.
 # How to fix it
 Apparently developer mode wasn’t enabled. But I didn’t see a setting to turn on development tools like I thought there would be. I knew there was a way to do it, but finding it was very difficult if you didn’t know what you were looking for.
 
-## Step 1. Go into your settings to where your Android version is listed. Should be somewhere in an “About phone” option.
+## Step 1. 
+Go into your settings to where your Android version is listed. Should be somewhere in an “About phone” option.
 
 ![Android Build - About Phone](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/androidbuild.png)
 
-## Step 2. Tap the “Android version” until you see a dialogue box pop up at the bottom of the screen that says something along the lines of “Developer enables in *number* presses”. Tap that many more times and developer tools should be an option in your settings now. If you press it too many times you might see something like this.
+## Step 2. 
+Tap the “Android version” until you see a dialogue box pop up at the bottom of the screen that says something along the lines of “Developer enables in *number* presses”. Tap that many more times and developer tools should be an option in your settings now. If you press it too many times you might see something like this.
 
 ![Android KitKat Screen](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/androidkitkatscreen-e1454440597728.jpg)
 <em style="display: block;">I swore I broke my phone</em>
@@ -33,6 +35,7 @@ I was extra confused since that isn’t the Android logo. Someone else pointed o
 
 Aaaanyways…
 
-## Step 3. You should now see “Developer options” in your settings menu!
+## Step 3. 
+You should now see “Developer options” in your settings menu!
 
 ![Android Settings Menu - Developer Options](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/developeroptions.png)

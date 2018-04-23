@@ -27,7 +27,8 @@
 
 
 ## Currently Working on:
-* Contributing to Open Source
+* Localize assets for the following pages:
+    * Dev Diary - Defense Brigade Part 2
 
 ## Issues:
 
@@ -38,7 +39,6 @@
     * Some lists are rendering weirdly
 * ~Music Wearables w/ WWC: What to do about unavailable video?~
     * ~I put in a placeholder image w/ the original (unavailable) link for now~
-* Organize It - ALL NECESSARY: GitHub lacks a way to Underline text that isn't links
 * PAX East - "Uh, no thanks" image in original post wasn't available
 * OneDrive API - image error
 
@@ -57,4 +57,5 @@
 * Adjust dates on Dev Diary posts?
     * Should final project post be 1st or last?
 * Doublecheck Timestamps
+* Defense Brigade Part 2 - should Game Over image have caption?
 
