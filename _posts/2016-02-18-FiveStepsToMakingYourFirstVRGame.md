@@ -88,6 +88,7 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
         <li>Create an empty GameObject (under GameObject -> create empty). Rename it to Borders.</li>
     </ul>
 </ul>
+<br />
 
 ![Grouping the borders](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture6.png)
 <em style="display: block;">Grouping the borders</em>
