@@ -30,6 +30,8 @@
     * Save Image Assets first
 * Convert all .webp into .png, due to compatibility issues with Firefox & other browsers
 * Need to add link caption into earlier files via <em> tag hack
+    * Organize It - Screenshot 4
+    * Organize It - Screenshot 14
 
 ## Notes:
 * Switched to working on oldest posts first, since newer posts often linked to older posts, and this would result in broken links.
