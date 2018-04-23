@@ -5,7 +5,7 @@ date:   2016-05-16 16:39:32 -0400
 #categories:  [ "2D", "Game Design", "Game Dev", "Game Development", "Unity", "Unity3D", "Video Games" ]
 ---
 
-A little while ago I made a first draft of a game called [Defense Brigade](http://adinashanholtz.com/defense-brigade-game-design-with-unity3d/) which you can play [here](http://defensebrigade.azurewebsites.net/). While making it, I started publishing dev diaries as a way to track my progress and mention things that might have tripped me up.
+A little while ago I made a first draft of a game called [Defense Brigade](http://adinashanholtz.com/defense-brigade-game-design-with-unity3d/) which you can play [here](http://defensebrigade.azurewebsites.net/). While making it, I started publishing [dev diaries](https://ashanhol.github.io/2015/11/24/defenseBrigadeGameDesignwithUnity3D.html) as a way to track my progress and mention things that might have tripped me up.
 
 Well, I decided to turn it into a real full fledged game to be ported to a store. I knew this was going to be a rather large task, there’s a million ways to improve what I had made from the original Defense Brigade. Here were some thoughts.
 
@@ -26,7 +26,6 @@ Before I sat down to address some of the issues above, I realized I would also n
 I also composed my own music for this game. I know that’s a little unusual since not every developer also composes their own music so I figured I’d go into a little more detail. I had never composed music for a video game before. In fact, most of my background was in making a capella arrangements. But I have a musical background and played piano for a number of years so I thought I would take a shot at it. I bought the mini synthesizer you see below, which came with a version of Ableton Light. While Ableton is an awesome program, I was pressed for time so I used GarageBand instead since I’ve used it before. (If I had the money to spend on Logic Pro I would much rather use that tbh). But GarageBand worked for what I needed and I ended up creating two tracks for the game which are featured [here](https://soundcloud.com/adina-shanholtz/sets/silent-dream-ost). Let me know in the comments or on twitter if you’d like to hear more about composition for non composers.
 
 ![Mini Synth - Arturia MINILAB Universal MIDI Controller](http://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/05/CgVLFowWIAABZgd.jpg) 
-
 <em style="display: block;">Mini Synth</em>
 
 I will go into more detail about game mechanics in the next post.
