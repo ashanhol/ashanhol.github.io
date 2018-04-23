@@ -23,15 +23,19 @@
 * Contributing to Open Source
 
 ## Issues:
-* Music Wearables w/ WWC: What to do about unavailable video?
-    * I put in a placeholder image w/ the original (unavailable) link for now
+* Five Steps to Making Your First VR Game
+    * Image Markdown isn't processing correctly - unclear why
+* ~Music Wearables w/ WWC: What to do about unavailable video?~
+    * ~I put in a placeholder image w/ the original (unavailable) link for now~
 * Organize It - ALL NECESSARY: GitHub lacks a way to Underline text that isn't links
+* PAX East - "Uh, no thanks" image in original post wasn't available
 * Change image links from WP CDN to local
     * Save Image Assets first
 * Convert all .webp into .png, due to compatibility issues with Firefox & other browsers
-* Need to add link caption into earlier files via <em> tag hack
     * Organize It - Screenshot 4
     * Organize It - Screenshot 14
+    * 
+* Need to add link caption into earlier files via <em> tag hack
 
 ## Notes:
 * Switched to working on oldest posts first, since newer posts often linked to older posts, and this would result in broken links.
