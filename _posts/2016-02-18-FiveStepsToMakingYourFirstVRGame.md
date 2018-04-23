@@ -5,14 +5,14 @@ date:   2016-02-18 22:21:16 -0400
 #categories:  [ "cardboard", "Game Design", "Game Development", "gaming", "Google Cardboard", "guide", "how to", "Unity", "Unity3D", "Virtual Reality", "VR" ]
 ---
 
-Ever wanted to make your own virtual reality game but weren’t sure where to start? This guide will get you going using [Unity](https://web.archive.org/web/20170704165241/http://unity3d.com/get-unity) and a [Google Cardboard](https://web.archive.org/web/20170704165241/https://www.google.com/get/cardboard/get-cardboard/) to make your first VR game. Unity is free to download and you can either make your own Cardboard or buy one from the link above. To make sure you have all the current assets please follow the \~Before Starting\~ guide.
+Ever wanted to make your own virtual reality game but weren’t sure where to start? This guide will get you going using [Unity](http://unity3d.com/get-unity) and a [Google Cardboard](https://www.google.com/get/cardboard/get-cardboard/) to make your first VR game. Unity is free to download and you can either make your own Cardboard or buy one from the link above. To make sure you have all the current assets please follow the \~Before Starting\~ guide.
 
-### [Here is the Github link to this project.](https://web.archive.org/web/20170704165241/https://www.google.com/get/cardboard/get-cardboard/) 
+### [Here is the Github link to this project.](https://www.google.com/get/cardboard/get-cardboard/) 
 
 # \~Before Starting\~
 
 ### Android
-If you’re planning on porting to **Android**, please follow the steps outlined in [this guide](https://web.archive.org/web/20170704165241/https://developers.google.com/cardboard/unity/get-started-ios). This will include:
+If you’re planning on porting to **Android**, please follow the steps outlined in [this guide](https://developers.google.com/cardboard/unity/get-started-ios). This will include:
 
 * Downloading the latest version of Unity. **Make sure** to select porting to Android as an extra feature to install.
 * Downloading the Cardboard SDK for Unity (as well as their demo if you wish)
