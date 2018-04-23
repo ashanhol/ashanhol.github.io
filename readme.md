@@ -3,9 +3,9 @@
 ## Finished:
 * Music Wearables Workshop with Women Who Code
 * Organize It
-* Deploying a Website to Azure
 * Getting Started With the OneDrive API
 * Getting Started With the OneNote API
+* Deploying a Website to Azure
 * Defense Brigade - Game Design with Unity 3d 
 * Dev Diary - Unity 3d Game Design - Defense Brigade Part 1
 * Dev Diary - Unity 3d Game Design - Defense Brigade Part 2
@@ -55,5 +55,6 @@
 * May need to doublecheck meta data on posts - specifically titles
 * Need to check for broken links on posts
 * Adjust dates on Dev Diary posts?
+    * Should final project post be 1st or last?
 * Doublecheck Timestamps
 
