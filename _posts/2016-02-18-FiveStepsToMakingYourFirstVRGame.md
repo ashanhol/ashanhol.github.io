@@ -46,38 +46,28 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
             <li>Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use. </li>
         </ul>
     </li>
-    <li>Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.
-    </li><br />
+    <li>Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.</li><br />
     <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture2.png" alt="Saving the scene">
     <em style="display: block;">Saving the scene</em>
     <li>Create a Plane for the ground</li>
-        <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Creating a plane">
-        <em style="display: block;">Creating a plane</em>
-        <ul><li>Rename this plane to “Ground”.</li></ul>
-    <br />
+    <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Creating a plane">
+    <em style="display: block;">Creating a plane</em>
+    <ul><li>Rename this plane to “Ground”.</li></ul><br />
     <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Change position and scale">
     <em style="display: block;">Change position and scale</em>
+    <li>Change position to 0,0,0; and scale to 2,1,2.</li><br />
+    <li>Create the borders</li>
         <ul>
-            <li>Change position to 0,0,0; and scale to 2,1,2.</li>
+            <li>Create a 3D cube.</li>
+            <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture5.png" alt="Creating the 3D cube">
+            <em style="display: block;">Yes the red thing is a sphere not a cube. Please make a cube not a sphere.</em>
+            <li>Rename the cube to LeftBorder. Set it’s position to -10, 0, 0; and its scale to 0.5,2, 20.5.</li>
+            <li>Duplicate LeftBorder and rename it to RightBorder. Change its position to 10, 0, 0; and its scale to 0.5, 2, 20.5.</li>
+            <li>Duplicate RightBorder and rename it to FarBorder. Change its position to 0, 0, 10; and its scale to 20.5, 2, 0.5.</li>
+            <li>Duplicate FarBorder and rename it to NearBorder. Change its position to 0, 0, -10; and its scale to 20.5, 2, 0.5.</li>
+            <li>Create an empty GameObject (under GameObject -> create empty). Rename it to Borders.</li>
         </ul>
-    </li>
-</ol>
-5. Create the borders
-    * Create a 3D cube.
-
-![Creating the 3D cube](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture5.png)
-<em style="display: block;">Yes the red thing is a sphere not a cube. Please make a cube not a sphere.</em>
-
-<ul>
-    <ul>
-        <li>Rename the cube to LeftBorder. Set it’s position to -10, 0, 0; and its scale to 0.5,2, 20.5.</li>
-        <li>Duplicate LeftBorder and rename it to RightBorder. Change its position to 10, 0, 0; and its scale to 0.5, 2, 20.5.</li>
-        <li>Duplicate RightBorder and rename it to FarBorder. Change its position to 0, 0, 10; and its scale to 20.5, 2, 0.5.</li>
-        <li>Duplicate FarBorder and rename it to NearBorder. Change its position to 0, 0, -10; and its scale to 20.5, 2, 0.5.</li>
-        <li>Create an empty GameObject (under GameObject -> create empty). Rename it to Borders.</li>
-    </ul>
-</ul>
-<br />
+</ol><br />
 
 ![Grouping the borders](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture6.png)
 <em style="display: block;">Grouping the borders</em>
