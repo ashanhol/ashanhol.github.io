@@ -44,9 +44,10 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 2. Import the Cardboard assets.
     * Under Assets -> Import Package -> Custom Package, select the cardboard SDK.
 
-<br />
 ![Menu for importing the Cardboard assets](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Screenshot-49.png)
-<em style="display: block;">Menu for importing the Cardboard assets</em><br />
+<em style="display: block;">Menu for importing the Cardboard assets</em>
+
+<br />
 <ul>
     <ul>
         <li>Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use.
