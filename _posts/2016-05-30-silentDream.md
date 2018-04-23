@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Dev Diary- Silent Dream Part 3"
+title:  "Silent Dream"
 date:   2016-07-06 19:06:50 -0400 
 #categories:  [ "2D", "Android", "desktop", "Game Development", "mobile", "Unity", "Unity3D", "Video Games", "windows 10" ]
 ---
