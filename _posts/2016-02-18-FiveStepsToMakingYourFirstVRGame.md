@@ -53,16 +53,15 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
     <li>Create a Plane for the ground</li>
         <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Creating a plane">
         <em style="display: block;">Creating a plane</em>
-    <li>Rename this plane to “Ground”.</li>
+        <ul><li>Rename this plane to “Ground”.</li></ul>
     <br />
     <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Change position and scale">
+    <em style="display: block;">Change position and scale</em>
         <ul>
-            <em style="display: block;">Change position and scale</em>
             <li>Change position to 0,0,0; and scale to 2,1,2.</li>
         </ul>
     </li>
 </ol>
-
 5. Create the borders
     * Create a 3D cube.
 
