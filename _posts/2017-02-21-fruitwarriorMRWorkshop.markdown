@@ -24,43 +24,43 @@ In addition, please download the latest HoloToolkit Unity package from their [re
 
 1. Make a new 3D project.
 
-![Unity - New 3d Project](http://ashanhol.github.io/assets/images/fruit_warrior/new3dproject.png)
+![Unity - New 3d Project](https://ashanhol.github.io/assets/images/fruit_warrior/new3dproject.png)
 
 
 2. Make a folder called “Our Assets” to help organize what we make vs. what the HoloToolkit makes.
 ourassets
 
-![“OurAssets” Folder](http://ashanhol.github.io/assets/images/fruit_warrior/ourassets.png)
+![“OurAssets” Folder](https://ashanhol.github.io/assets/images/fruit_warrior/ourassets.png)
 
 3. Import HoloToolkit. Import all except HoloToolkit-Examples folder. (Or import all and delete HoloToolkit-Examples afterwards).
 
-![Importing HoloTolkit](http://ashanhol.github.io/assets/images/fruit_warrior/import-holo-toolkit.png)
+![Importing HoloTolkit](https://ashanhol.github.io/assets/images/fruit_warrior/import-holo-toolkit.png)
 
 4. Make folder in Our Assets named Scenes. Save Scene.
 
-![Scenes](http://ashanhol.github.io/assets/images/fruit_warrior/scenes.png)
+![Scenes](https://ashanhol.github.io/assets/images/fruit_warrior/scenes.png)
 
 5. Delete default Main Camera. Drag and drop HoloLens Camera prefab into your Hierarchy Assets: HoloToolkit -> Input -> Prefab -> HoloLensCamera
 
-![HoloToolkit Camera](http://ashanhol.github.io/assets/images/fruit_warrior/holo-toolkit-camera.png)
+![HoloToolkit Camera](https://ashanhol.github.io/assets/images/fruit_warrior/holo-toolkit-camera.png)
 
 <!-- Check that this is the right way to do nested lists-->
 
 6. Configure Settings. These settings will set the frame rate performance to fastest, set the build target to Windows 10, set the build type to Direct3D, and enables HoloLens VR in Unity.
     1. Menu bar: HoloToolKit -> Configure -> Apply HoloLens Project Settings
 
-![Settings](http://ashanhol.github.io/assets/images/fruit_warrior/settings.png)
+![Settings](https://ashanhol.github.io/assets/images/fruit_warrior/settings.png)
 
 You should be testing your application either on the emulator or on a HoloLens device throughout this guide.
 First you have to build a Visual Studio solution, which you can do from the HoloToolkit Menu Bar -> Build Window. Then check out the Build and Deploy section [here](https://developer.microsoft.com/en-us/windows/holographic/holograms_100).
 
-![Build](http://ashanhol.github.io/assets/images/fruit_warrior/build.png)
+![Build](https://ashanhol.github.io/assets/images/fruit_warrior/build.png)
 
 # Import Holograms
-1. You can feel free to use your own models. If you want to use my fruit objects (crafted by the talented [Kat Park](http://www.katalinapark.com/)), download the finished version of this project. Scroll up to the top of this page for the link to the finished Github repo.
+1. You can feel free to use your own models. If you want to use my fruit objects (crafted by the talented [Kat Park](https://www.katalinapark.com/)), download the finished version of this project. Scroll up to the top of this page for the link to the finished Github repo.
 2. **In this order**: Drag the Holograms folder (FruitWarriorMR-master/Assets/Holograms) from the completed Github repo into the “OurAssets” folder in your Unity project. **Then**, drag the Prefabs folder (FruitWarriorMR-master/Assets/Prefabs) from the completed Github repo into the “OurAssets” folder in your Unity project. This order matters, as the Prefabs are relying on information about the models in the Holograms folder. They won’t render properly without it.
 
-![Hologams Folder](http://ashanhol.github.io/assets/images/fruit_warrior/holograms-folder.png)
+![Hologams Folder](https://ashanhol.github.io/assets/images/fruit_warrior/holograms-folder.png)
 
 # Gaze
 The HoloToolkit comes with a bunch of nifty things to help us with Gaze input. The InputManager prefab is a system that manages gaze and various input sources currently supported by HoloLens, such as hands and gestures. Importantly, it also includes a fake input source that allows you to simulate hand input when in the editor. By default, this can be done by holding Shift (left hand) or Space (right hand), moving the mouse to move the hand and use the left mouse button to tap.
@@ -69,7 +69,7 @@ The cursor will follow the user’s gaze, with an additional HandDetectedFeedbac
 1. In the Assets: HoloToolkit -> Input -> Prefab folder, drag the InputManager prefab into your Hierarchy to input your Gaze Manager.
 2. In the Assets: HoloToolkit ->Input -> Prefab -> Cursor folder, drag the CursorWithFeedback prefab into your Hierarchy to input your cursor.
 
-![Drag and drop the InputManager](http://ashanhol.github.io/assets/images/fruit_warrior/drag-drop-input-manager.png)
+![Drag and drop the InputManager](https://ashanhol.github.io/assets/images/fruit_warrior/drag-drop-input-manager.png)
 
 For more about Gaze, take the time to look at the scripts, specifically GazeManager.cs and InputManager.cs. Additionally, go through the [Holographic Academy workshop about Gaze](https://developer.microsoft.com/en-us/windows/holographic/holograms_210).
 
@@ -78,7 +78,7 @@ The HoloToolkit has prefabs that let you use the HoloLens created mesh of your p
 
 1. Add the Spatial Perception capability in your app, in Unity under Edit -> Project Settings -> Player -> Settings for Windows Store -> Publishing Settings -> Capabilities.
 
-![Spatial Mapping Setting](http://ashanhol.github.io/assets/images/fruit_warrior/spacial-mapping-setting.png)
+![Spatial Mapping Setting](https://ashanhol.github.io/assets/images/fruit_warrior/spacial-mapping-setting.png)
 
 2. Drag the SpatialMapping prefab in Assets: HoloToolkit -> SpatialMapping -> Prefabs into your Hierarchy.
 3. Click on the SpatialMapping object in your Hierarchy. In the Inspector on the right side, uncheck Draw Visual Meshes under Spatial Mapping Manager.
@@ -89,7 +89,7 @@ Now that our world is set up, it’s time to make some falling fruit! Feel free 
 
 1. Create a new folder in “OurAssets” called “Scripts”. In the “Scripts” folder, create a new C# script called GameController.
 
-![GameController script](http://ashanhol.github.io/assets/images/fruit_warrior/gamecontroller-script.png)
+![GameController script](https://ashanhol.github.io/assets/images/fruit_warrior/gamecontroller-script.png)
 
 Add code to spawn waves of fruit.
 
@@ -155,24 +155,24 @@ public class GameController : MonoBehaviour {
 
 3. Create a new empty game object named GameController and give it the GameController tag.
 
-![GameController Object](http://ashanhol.github.io/assets/images/fruit_warrior/gamecontroller-object.png)
+![GameController Object](https://ashanhol.github.io/assets/images/fruit_warrior/gamecontroller-object.png)
 
 4. Drag the GameController script onto the GameController Object. Set the values as per the picture below.
 
-![Set values in GameController Script](http://ashanhol.github.io/assets/images/fruit_warrior/set-values-in-gamecontroller-script.png)
+![Set values in GameController Script](https://ashanhol.github.io/assets/images/fruit_warrior/set-values-in-gamecontroller-script.png)
 
 5. If you play your game on the emulator or device, fruit will spawn and bounce off the floor. But that fruit is falling really fast! Let’s change the gravity so the fruit falls slower. In Menu:Edit->Project Settings->Physics, change Gravity Y from -9.81 to -.81.
 
-![Defying Gravity](http://ashanhol.github.io/assets/images/fruit_warrior/defying-gravity.png)
+![Defying Gravity](https://ashanhol.github.io/assets/images/fruit_warrior/defying-gravity.png)
 
 
 \*\*Awesome! But now fruit will fall forever if they don’t bounce off the floor (accidents happen). Let’s put in a “deadzone” to delete fruit that’s falling forever. \*\*
 
 Create a new 3D Plane named DeadZone, and give it the “Finish” tag. Change its Position to **X: 0 Y: -10 Z: 0** and scale to **X: 30 Y: 1 Z: 30** to make it 30×30 meters and 10 meters below your head. Then uncheck the Mesh Renderer to make it invisible.
 
-![Create 3D Plane with “Finish” tag](http://ashanhol.github.io/assets/images/fruit_warrior/create-3d-plane-with-finish-tag.png)
+![Create 3D Plane with “Finish” tag](https://ashanhol.github.io/assets/images/fruit_warrior/create-3d-plane-with-finish-tag.png)
 
-![Change the transform values and turn off mesh renderer](http://ashanhol.github.io/assets/images/fruit_warrior/change-transform-values-turn-off-mesh-renderer.png)
+![Change the transform values and turn off mesh renderer](https://ashanhol.github.io/assets/images/fruit_warrior/change-transform-values-turn-off-mesh-renderer.png)
 
 # Game Logic
 We have most of the pieces, now it’s time to put them together!
@@ -269,7 +269,7 @@ Now that our fruit is falling, we have no idea where they are! Sound will help u
 1. Make a new folder in “OurAssets named “Sounds”. Drag the files from the “Sounds” folder in the finished Github repo, into our newly created Sounds folder. You can also use your own “bomb explosion” sound and “falling” sound.
 2. In Unity select from the top menu Edit > Project Settings > Audio. In the Inspector Panel on the right side, find the Spatializer Plugin setting and select MS HRTF Spatializer.
 
-![Spatializer plugin](http://ashanhol.github.io/assets/images/fruit_warrior/spatializer-plugin.png)
+![Spatializer plugin](https://ashanhol.github.io/assets/images/fruit_warrior/spatializer-plugin.png)
 
 3. On each fruit/bomb prefab, there should be an Audio Source. Change these things for each one (or change for one and copy/paste):
     * Drag fallingsound1.wav from the “Sounds” folder onto AudioClip.
@@ -339,7 +339,7 @@ Let’s display our score and time left to the player! Working with UI text in U
 
 1. Drag the 3DTextPrefab in Assets:HoloToolkit->UI->Prefabs into your Hierarchy and rename it ScoreBoardText. Click on ScoreBoardText and click the drop down arrow on the Shader at the bottom of the inspector. Import the font you want to use (I already imported Segoe UI in Holograms->Materials) and drag the font texture into the shader. See the picture for more detail. Also make sure to drag the font (in our case Segoe UI) under “Font” in the Text Mesh component.
 
-![Font Shader](http://ashanhol.github.io/assets/images/fruit_warrior/font-shader.png)
+![Font Shader](https://ashanhol.github.io/assets/images/fruit_warrior/font-shader.png)
 
 2. Set the text in Text Mesh of ScoreBoardText to “Score: 0”. Make sure the Z position in the transform is set to 2 and the scale values for X, Y, and Z are all 0.009.
 3. Duplicate (ctrl+D) ScoreBoardText and rename it Timer. Change the text in Text Mesh to “Timer: 120” and set its Y Position to 0.05.
@@ -474,7 +474,7 @@ Now for some extra fun. We’re going to add in a couple of voice commands to en
 2. Make a new Scene named Menu and save it in your Scenes folder. Open the Menu scene if you haven’t yet.
 3. Bring up the Build Settings under Menu: File -> Build Settings. Make sure your Menu scene is added to the Scenes In Build (click Add Open Scenes to add it) and make sure Menu is before Main so it loads first.
 
-![Build Settings](http://ashanhol.github.io/assets/images/fruit_warrior/build-settings.png)
+![Build Settings](https://ashanhol.github.io/assets/images/fruit_warrior/build-settings.png)
 
 4. Once again, delete the main camera and add the HoloLensCamera prefab, the InputManager prefab, and the CursorWithFeedback prefab.
 5. We’re going to make a “button” that we can tap to start the game, but also responds to a voice command to start as well!
@@ -626,7 +626,7 @@ using UnityEngine.SceneManagement;
         }
 ```
 
-![GameController parent of SpatialMapping](http://ashanhol.github.io/assets/images/fruit_warrior/gc-parent-of-spatial-mapping.png) 
+![GameController parent of SpatialMapping](https://ashanhol.github.io/assets/images/fruit_warrior/gc-parent-of-spatial-mapping.png) 
 
 # Play Your Game!
 And that’s it! Play your game!
