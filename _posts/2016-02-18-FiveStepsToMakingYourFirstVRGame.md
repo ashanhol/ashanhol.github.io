@@ -35,7 +35,7 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
             <li>First thing you should do is make a new project. This will bring up the project window.</li><br />
             <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture1.png" alt="Unity - New Project Window">
             <em style="display: block;">The Project Window</em>            
-            <li><span style="font-weight: bold;">Make sure</span> you select 3D. Give your project a good name. I named mine CollectEmAll.
+            <li><span style="font-weight: bold;">Make sure</span> you select 3D. Give your project a good name. I named mine CollectEmAll.</li>
         </ul>
     </li>
     <li>Import the Cardboard assets.
@@ -46,21 +46,22 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
             <li>Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use. </li>
         </ul>
     </li>
-    <li>3. Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.</li><br />
+    <li>Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.
+    </li><br />
     <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture2.png" alt="Saving the scene">
-    <em style="display: block;">Saving the scene</em></li>
+    <em style="display: block;">Saving the scene</em>
+    <li>Create a Plane for the ground</li>
+        <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Creating a plane">
+        <em style="display: block;">Creating a plane</em>
+    <li>Rename this plane to “Ground”.</li>
+    <br />
+    <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Change position and scale">
+        <ul>
+            <em style="display: block;">Change position and scale</em>
+            <li>Change position to 0,0,0; and scale to 2,1,2.</li>
+        </ul>
+    </li>
 </ol>
-
-
-4. Create a Plane for the ground.
-![Creating a plane](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png)
-<em style="display: block;">Creating a plane</em>
-
-    * Rename this plane to “Ground”.
-![Change position and scale](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png)
-<em style="display: block;">Change position and scale</em>
-
-    * Change position to 0,0,0; and scale to 2,1,2.
 
 5. Create the borders
     * Create a 3D cube.
