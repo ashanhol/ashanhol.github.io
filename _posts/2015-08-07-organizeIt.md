@@ -3,7 +3,6 @@ layout: single
 title:  "Organize It!"
 date:   2015-08-07 14:46:14 -0400        
 #categories:  [ "Adhd", "executive functioning disorder", "organization", "task view", "virtual desktop", "windows 10" ]
- "arduino", "makeymakey", "music", "wearables", "women who code" ]
 ---
 
 So I have ADHD. That means a lot of things, but other than the obvious focus issues, it means I have a hard time with organization. Honestly, I’m really proud of my organization skills- unfortunately it’s just not a thing that comes really naturally. My first instinct for anything physical is just putting something down. So papers go in the first folder available, mail gets put down wherever I am (or the kitchen table), and essentially everything gets shoved somewhere until I can deal with it and actually organize it later. I’ve learned my lesson the **hard way**. Starting in middle school I lost textbooks in the hallways, and now that I live in my own place I’ve even lost important checks (see: paycheck) even though I have an accordion folder to put it. And unfortunately, it follows me into the digital world.
