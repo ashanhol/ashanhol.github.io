@@ -25,6 +25,7 @@
 ## Issues:
 * Five Steps to Making Your First VR Game
     * Image Markdown isn't processing correctly - unclear why
+        * Issue appears to be specifically with Jekyll - files look fine in GitHub Repo
 * ~Music Wearables w/ WWC: What to do about unavailable video?~
     * ~I put in a placeholder image w/ the original (unavailable) link for now~
 * Organize It - ALL NECESSARY: GitHub lacks a way to Underline text that isn't links
