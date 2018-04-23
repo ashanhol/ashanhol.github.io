@@ -7,8 +7,8 @@ date:   2015-10-12 14:52:58 -0400
 
 The OneDrive API allows developers to integrate OneDrive into their apps to store and manage user data across all major platforms, including Windows, the web, iOS, and Android. With the RESTful API, you can build on a scalable cloud storage platform that reaches users across the entire family of Microsoft consumer services. Features include:
 
-The ability to retrieve new changes to files and folders to efficiently keep a large set of files in sync with minimal calls.
-Resumable uploads of files up to 10 GB via file-fragment uploading for working with rich content, like HD videos.
+* The ability to retrieve new changes to files and folders to efficiently keep a large set of files in sync with minimal calls.
+* Resumable uploads of files up to 10 GB via file-fragment uploading for working with rich content, like HD videos.
 Customizable file thumbnail images for delivering a more integrated experience across your app and OneDrive.
 
 ![alttext](https://ashanhol.github.io/assets/images/OneDrive-API-launch-blog-post-banner.png)
