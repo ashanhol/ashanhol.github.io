@@ -9,6 +9,7 @@ So I was trying to build my Google Cardboard app to an Android phone and I got t
 
 ![Error!??](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/USB-issue.png)
 <em style="display: block;">Error!??</em>
+
 This error can happen any time you build an app to Android from Unity. I was confused because I had tried all different USB modes, made sure the Google Drivers (as well as the drivers for this particular model of phone) were all installed to the latest versions. I couldn’t possibly enable USB mode any more than I already did. I restarted my computer and Unity a whole bunch of times and every time it would stop on this screen.
 
 ![Trying to locate and Android device](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/locateandroid.png)
