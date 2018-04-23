@@ -7,11 +7,11 @@ date:   2015-11-24 21:02:26 -0400
 
 I made a thing! It’s a cool thing!!
 
-I’ve [used Construct2](https://channel9.msdn.com/Blogs/raw-tech/Intro-To-Construct2-Course) and GameMaker so I figured it was about time to take it up a notch. Unity3D is a powerful game design platform (that’s also good for things like installation!) that a number of professional game devs use for their [games](https://web.archive.org/web/20161015000843/http://madewith.unity.com/games). Thing is, I was familiar with Unity and have taught game design using it, but had yet to make a game of my own. I know, so sad.
+I’ve [used Construct2](https://channel9.msdn.com/Blogs/raw-tech/Intro-To-Construct2-Course) and GameMaker so I figured it was about time to take it up a notch. Unity3D is a powerful game design platform (that’s also good for things like installation!) that a number of professional game devs use for their [games](https://madewith.unity.com/games). Thing is, I was familiar with Unity and have taught game design using it, but had yet to make a game of my own. I know, so sad.
 
-So introducing Defense Brigade! [Click Here](https://web.archive.org/web/20161015000843/http://defensebrigade.azurewebsites.net/) to play.
+So introducing Defense Brigade! [Click Here](https://defensebrigade.azurewebsites.net/) to play.
 
-![Actual gameplay.](https://web.archive.org/web/20161015000843/http://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/gameplay.png)
+![Actual gameplay.](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/gameplay.png)
 <em style="display: block">Actual gameplay.</em>
 
 # Idea

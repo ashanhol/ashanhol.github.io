@@ -10,7 +10,7 @@ Dev Diary part 2 – Electric Boogaloo. See here for the previous dev diary. So 
 # Enemy movement
 So the next big aspect of the game is, you know, the challenge. I didn’t just want plain obstacles, I wanted them to target the weak character, so that the strong character not only had to beat back the enemies, the player will have to dodge incoming enemies with the weak character.
 
-![Enemies converging on the weak character.](http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/enemyconverging.png) 
+![Enemies converging on the weak character.](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/enemyconverging.png) 
 <em style="display: block;">Enemies converging on the weak character.</em>
 
 The logic is basically “move towards the weak character player”. Lucky for us, Unity has a built in function, Vector2.MoveTowards. So the code for moving an enemy toward a player is
@@ -23,7 +23,7 @@ I have to admit, I couldn’t have asked for a better enemy spawning tutorial th
 I also had to make sure that the enemies would spawn randomly all around the screen, not just at the top. After generating a random location the game controller instantiates a new enemy at spawnPosition. See below.
 randomgeneratedenemies
 
-[Enemies spawning in random areas around the screen.](http://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/randomgeneratedenemies.png)
+[Enemies spawning in random areas around the screen.](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/randomgeneratedenemies.png)
 <em style="display: block;">Enemies spawning in random areas around the screen.</em>
 
 # Prefabs

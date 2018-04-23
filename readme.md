@@ -28,7 +28,8 @@
 * Organize It - ALL NECESSARY: GitHub lacks a way to Underline text that isn't links
 * Change image links from WP CDN to local
     * Save Image Assets first
-* Convert all .webp into .png, due to compatibility issues with Firefox & other browsers 
+* Convert all .webp into .png, due to compatibility issues with Firefox & other browsers
+* Need to add link caption into earlier files via <em> tag hack
 
 ## Notes:
 * Switched to working on oldest posts first, since newer posts often linked to older posts, and this would result in broken links.

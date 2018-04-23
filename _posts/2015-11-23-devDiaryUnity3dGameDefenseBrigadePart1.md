@@ -13,19 +13,19 @@ Basically it’s a 2-D game with top down perspective, and functions so that you
 # Character Movement
 The first thing I did was create character movement. The characters themselves are default sprites I found already loaded into Unity. It’s easier to get the basic game working with minimal art and add in fancier sprites and animation later.
 
-![characters](http://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/characters.png)
+![characters](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/characters.png)
 The two characters and camera. Picture taken after game completion.
 
 As for movement, a good chunk of the tutorials expect only one character and therefore use Input.GetAxis to get the horizontal and vertical movements. This makes sense as that method automatically adjusts to varying frame-rates. However, that method reads for both arrow keys and WASD, which meant I couldn’t use it for both characters since they would end up moving together. So instead I calculated velocity based on a vector that was updated by individual key presses. That way I could move only the strong character with WASD, and only the weak character with the arrow keys.  As for flipping horizontally and vertically, I multiplied the local scale by -1 as suggested by [this tutorial](https://unity3d.com/learn/tutorials/modules/beginner/2d/2d-overview?playlist=17093).
 
-![Movement code](https://web.archive.org/web/20161227020543/http://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/characters.png)
+![Movement code](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/characters.png)
 <em style="display: block">Movement code for the strong character.</em>
 
 After character controllers I then made boundaries so the player wouldn’t go off the screen accidentally. This was just giving colliders to the characters and off screen boxes.
 
 After seeing how sprites interact with this world I feel as if I can take the next steps into a 2.5-D game (where the world and characters are 3-D but the player only interacts with the world in a 2-D way).
 
-![The New Super Marios - screenshot](http://i1.wp.com/www.pressthebuttons.com/images/nsmbwhd06.jpg)
+![The New Super Marios - screenshot](https://i1.wp.com/www.pressthebuttons.com/images/nsmbwhd06.jpg)
 <em style="display: block">The New Super Mario Bros is an example of a 2.5-D game, where Mario and the enemies are 3-D but the game is played 2-D, the same way as the original.</em>
 
 That’s it for now. For more in my development adventure, see the next dev diary post 😊

@@ -5,11 +5,11 @@ date:   2016-11-21 14:46:14 -0400
 #categories:  [ ".NET", ".NET Core", "cross platform", "dotnet core", "github", "Open Source", "OSS ]
 ---
 
-It’s been a while since I made a blog post. Looking back, seems like I jumped from project to project, since the last thing I did was release [Silent Dream](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/silent-dream/). I’m excited to talk about what I’ve been up to!
+It’s been a while since I made a blog post. Looking back, seems like I jumped from project to project, since the last thing I did was release [Silent Dream](https://adinashanholtz.com/silent-dream/). I’m excited to talk about what I’ve been up to!
 
-The last four months I have been contributing to an open source project called [JabbR](https://github.com/MachUpskillingFY17/JabbR-Core. I’ve learned so much from this experience, I’m breaking it up into other blog posts about our [team process](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/open-source-team-contribution-process/), .NET Core technology, and bundling.
+The last four months I have been contributing to an open source project called [JabbR](https://github.com/MachUpskillingFY17/JabbR-Core. I’ve learned so much from this experience, I’m breaking it up into other blog posts about our [team process](https://adinashanholtz.com/open-source-team-contribution-process/), .NET Core technology, and bundling.
 
-In this particular post, I’ll discuss what it means to [have a project be open source](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/contributing-to-open-source/#what-is-open-source), how to [contribute to open source](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/contributing-to-open-source/#how-to-contribute) projects, and give an [overview of the project](https://web.archive.org/web/20170704174128/http://adinashanholtz.com/contributing-to-open-source/#what-is-jabbr) I worked on.
+In this particular post, I’ll discuss what it means to [have a project be open source](https://adinashanholtz.com/contributing-to-open-source/#what-is-open-source), how to [contribute to open source](https://adinashanholtz.com/contributing-to-open-source/#how-to-contribute) projects, and give an [overview of the project](https://adinashanholtz.com/contributing-to-open-source/#what-is-jabbr) I worked on.
 
 What is Open Source?
 The answer to this might seem intuitive. Open source = access to source code.
@@ -35,7 +35,7 @@ Here’s the tricks:
 Open source projects that want community contributions will sometimes have a document that say CONTRIBUTING, listing ways you can help out.
 The Issues tab is your best friend. Projects will keep tags you can peruse that say “help wanted” or “bug” or “enhancement”.
 If you’re not comfortable with contributing code at first, sometimes spell check fixes are a good way to do your first commit.
-Actually, [Scott Hanselman](http://www.hanselman.com/), who supported our project, has this really cool site called [First Timers Only](http://www.firsttimersonly.com/), which is dedicated to encouraging people to contribute for the first time to open source projects.
+Actually, [Scott Hanselman](https://www.hanselman.com/), who supported our project, has this really cool site called [First Timers Only](https://www.firsttimersonly.com/), which is dedicated to encouraging people to contribute for the first time to open source projects.
 
 Story time.
 Not gonna lie, when I was trying to wrap my head around contributing to an open source project in college, a friend told me to “just write a test”. I was too insecure as a computer science major to reply that I didn’t know how to do that. A year+ out of college and now I know how, because of this project.
