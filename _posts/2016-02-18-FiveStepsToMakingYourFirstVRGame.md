@@ -182,14 +182,15 @@ Code for Game Controller
 <em style="display: block;">Positioning text in the world</em>
 
 # Finishing Up
-1. Press the play button to test the game! Hold the alt key to simulate moving your head and click the mouse to simulate pulling the trigger.
+### 1. Press the play button to test the game! 
+* Hold the alt key to simulate moving your head and click the mouse to simulate pulling the trigger.
 
 ![Testing our game](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture23.png)
 <em style="display: block;">Testing our game</em>
 
-2. Build Settings
-    * Go to File > Build Settings. Click “add open scenes” to add our playing field scene to the build.
-    * Under “Platform” select Android. Click “Player Settings”. In the Inspector, under “Resolution and Presentation”, make sure Default Orientation is set to Landscape Left.
+### 2. Build Settings
+* Go to File > Build Settings. Click “add open scenes” to add our playing field scene to the build.
+* Under “Platform” select Android. Click “Player Settings”. In the Inspector, under “Resolution and Presentation”, make sure Default Orientation is set to Landscape Left.
 
 ![Adding open scenes and player settings](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture24.png)
 <em style="display: block;">Adding open scenes and player settings</em>
@@ -198,17 +199,18 @@ Code for Game Controller
 ![Renaming the Bundle Identifier](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture25.png)
 <em style="display: block;">I eventually ended up naming mine com.feytechnologist.cardboardcollect</em>
 
-3. Android
-    * Make sure USB Developer Mode is enabled on your Android phone. See here if you have any errors.
-    * Click Build And Run. Turn on phone, you should see the Unity splash screen. Unplug after scene loads and put into your Google Cardboard.
-4. iOS
-    * The following is taken from the Google dev website. The link to the iOS deployment instructions is at the top under “getting started”.
+### 3. Android
+* Make sure USB Developer Mode is enabled on your Android phone. See here if you have any errors.
+* Click Build And Run. Turn on phone, you should see the Unity splash screen. Unplug after scene loads and put into your Google Cardboard.
+
+### 4. iOS
+* The following is taken from the Google dev website. The link to the iOS deployment instructions is at the top under “getting started”.
 
 ![Deploying the Project in XCode - Part 1](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture26.png)
 
 ![Deploying the Project in XCode - Part 2](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture27.png)
 
-5. **Play Game!**
+### 5. **Play Game!**
 
 ![A Cardboard VR game of your own!](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/adinavrgame.gif)
 <em style="display: block;">A Cardboard VR game of your own!</em>
