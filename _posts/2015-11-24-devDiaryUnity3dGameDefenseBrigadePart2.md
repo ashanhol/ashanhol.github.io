@@ -15,7 +15,8 @@ So the next big aspect of the game is, you know, the challenge. I didn’t just 
 
 The logic is basically “move towards the weak character player”. Lucky for us, Unity has a built in function, Vector2.MoveTowards. So the code for moving an enemy toward a player is
 
-```cs float step = speed * Time.deltaTime;
+```cs 
+float step = speed * Time.deltaTime;
 transform.position = Vector2.MoveTowards(transform.position, weakcharacter.transform.position, step);```
 
 # Spawning waves
@@ -29,7 +30,8 @@ randomgeneratedenemies
 # Prefabs
 In order for the strong character to defeat the enemies, the enemies would detect if the strong character entered a trigger, then destroy itself. Before I remembered that prefabs existed, I kept running into this problem where the strong character would run into a couple of enemies, then they’d stop spawning and I’d get a Missing Reference Exception.
 
-```cs MissingReferenceException: The object of type 'GameObject' has been destroyed but you are still trying to access it.
+```cs 
+MissingReferenceException: The object of type 'GameObject' has been destroyed but you are still trying to access it.
 Your script should either check if it is null or you should not destroy the object.```
 
 The problem was that I was deleting the original reference to the enemy object, which was solvable by creating a prefab of the enemy and referencing that. A prefab is essentially an object template. Any modifications made to a prefab is made to all instances of that object. This made it so I wasn’t editing the original object, just spawning copies of it.

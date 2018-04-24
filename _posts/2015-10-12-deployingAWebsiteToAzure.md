@@ -5,7 +5,7 @@ date:   2015-10-12 15:51:13 -0400
 #categories:  [ ".NET", ".NET Core", "cross platform", "dotnet core", "github", "Open Source", "OSS" ]
 ---
 
-# Deploying a Website to Azure
+# Deploying a Website from source control to Azure
 
 We have our website, now how do we get it on the cloud? Using popular source control systems such as GitHub, BitBucket, or CodePlex, it’s easy to use Azure’s built-in features to automate web app deployment. Azure makes it easy to roll back to earlier deployments if necessary.
 
@@ -57,7 +57,7 @@ Want to use Ruby on Rails with the Azure cloud? Then look no further! You’ll c
 <em style="display: block">Ruby on Rails web app running on Azure</em>
 
 <!-- List -->
-**How to set up step-by-st**ep
+**How to set up step-by-step**
 
 * Step-by-step instructions on deploying a Ruby on Rails VM to Azure [here](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-ruby-rails-web-app-linux/).
 * Useful [link](https://azure.microsoft.com/en-us/develop/ruby/).
