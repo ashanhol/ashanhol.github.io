@@ -22,32 +22,36 @@ In addition, please download the latest HoloToolkit Unity package from their [re
 <!-- https://www.youtube.com/embed/eU6AMWEtKQc -->
 # Setting Up
 
-1. Make a new 3D project.
+### 1. Make a new 3D project.
 
 ![Unity - New 3d Project](https://ashanhol.github.io/assets/images/fruit_warrior/new3dproject.png)
+<em style="display: block;">Unity - New 3d Project</em>
 
-
-2. Make a folder called “Our Assets” to help organize what we make vs. what the HoloToolkit makes.
-ourassets
+### 2. Make a folder called “Our Assets” to help organize what we make vs. what the HoloToolkit makes.
 
 ![“OurAssets” Folder](https://ashanhol.github.io/assets/images/fruit_warrior/ourassets.png)
+<em style="display: block;">“OurAssets” Folder</em>
 
-3. Import HoloToolkit. Import all except HoloToolkit-Examples folder. (Or import all and delete HoloToolkit-Examples afterwards).
+### 3. Import HoloToolkit. 
+* Import all except HoloToolkit-Examples folder. (Or import all and delete HoloToolkit-Examples afterwards).
 
 ![Importing HoloTolkit](https://ashanhol.github.io/assets/images/fruit_warrior/import-holo-toolkit.png)
+<em style="display: block;">Importing HoloTolkit</em>
 
-4. Make folder in Our Assets named Scenes. Save Scene.
+### 4. Make folder in Our Assets named Scenes. Save Scene.
 
 ![Scenes](https://ashanhol.github.io/assets/images/fruit_warrior/scenes.png)
+<em style="display: block;">Scenes</em>
 
-5. Delete default Main Camera. Drag and drop HoloLens Camera prefab into your Hierarchy Assets: HoloToolkit -> Input -> Prefab -> HoloLensCamera
+### 5. Delete default Main Camera. Drag and drop HoloLens Camera prefab into your Hierarchy Assets: HoloToolkit -> Input -> Prefab -> HoloLensCamera
 
 ![HoloToolkit Camera](https://ashanhol.github.io/assets/images/fruit_warrior/holo-toolkit-camera.png)
+<em style="display: block;">HoloToolkit Camera</em>
 
 <!-- Check that this is the right way to do nested lists-->
 
-6. Configure Settings. These settings will set the frame rate performance to fastest, set the build target to Windows 10, set the build type to Direct3D, and enables HoloLens VR in Unity.
-    1. Menu bar: HoloToolKit -> Configure -> Apply HoloLens Project Settings
+### 6. Configure Settings. These settings will set the frame rate performance to fastest, set the build target to Windows 10, set the build type to Direct3D, and enables HoloLens VR in Unity.
+* Menu bar: HoloToolKit -> Configure -> Apply HoloLens Project Settings
 
 ![Settings](https://ashanhol.github.io/assets/images/fruit_warrior/settings.png)
 
@@ -76,22 +80,22 @@ For more about Gaze, take the time to look at the scripts, specifically GazeMana
 # Spatial Mapping
 The HoloToolkit has prefabs that let you use the HoloLens created mesh of your physical world, in your Unity project.
 
-1. Add the Spatial Perception capability in your app, in Unity under Edit -> Project Settings -> Player -> Settings for Windows Store -> Publishing Settings -> Capabilities.
+### 1. Add the Spatial Perception capability in your app, in Unity under Edit -> Project Settings -> Player -> Settings for Windows Store -> Publishing Settings -> Capabilities.
 
 ![Spatial Mapping Setting](https://ashanhol.github.io/assets/images/fruit_warrior/spacial-mapping-setting.png)
 
-2. Drag the SpatialMapping prefab in Assets: HoloToolkit -> SpatialMapping -> Prefabs into your Hierarchy.
-3. Click on the SpatialMapping object in your Hierarchy. In the Inspector on the right side, uncheck Draw Visual Meshes under Spatial Mapping Manager.
-4. In the Inspector, change Triangles per Cubic Meter to 1500 and Time Between Updates to 2. This will give us a denser and more frequently updated world mesh.
+### 2. Drag the SpatialMapping prefab in Assets: HoloToolkit -> SpatialMapping -> Prefabs into your Hierarchy.
+### 3. Click on the SpatialMapping object in your Hierarchy. In the Inspector on the right side, uncheck Draw Visual Meshes under Spatial Mapping Manager.
+### 4. In the Inspector, change Triangles per Cubic Meter to 1500 and Time Between Updates to 2. This will give us a denser and more frequently updated world mesh.
 
 # Spawn Fruit
 Now that our world is set up, it’s time to make some falling fruit! Feel free to use the finished scripts in the Github repo, or follow along.
 
-1. Create a new folder in “OurAssets” called “Scripts”. In the “Scripts” folder, create a new C# script called GameController.
+### 1. Create a new folder in “OurAssets” called “Scripts”. In the “Scripts” folder, create a new C# script called GameController.
 
 ![GameController script](https://ashanhol.github.io/assets/images/fruit_warrior/gamecontroller-script.png)
 
-Add code to spawn waves of fruit.
+### 2. Add code to spawn waves of fruit.
 
 ```cs
 using System.Collections;
@@ -153,15 +157,15 @@ public class GameController : MonoBehaviour {
 }
 ```
 
-3. Create a new empty game object named GameController and give it the GameController tag.
+### 3. Create a new empty game object named GameController and give it the GameController tag.
 
 ![GameController Object](https://ashanhol.github.io/assets/images/fruit_warrior/gamecontroller-object.png)
 
-4. Drag the GameController script onto the GameController Object. Set the values as per the picture below.
+### 4. Drag the GameController script onto the GameController Object. Set the values as per the picture below.
 
 ![Set values in GameController Script](https://ashanhol.github.io/assets/images/fruit_warrior/set-values-in-gamecontroller-script.png)
 
-5. If you play your game on the emulator or device, fruit will spawn and bounce off the floor. But that fruit is falling really fast! Let’s change the gravity so the fruit falls slower. In Menu:Edit->Project Settings->Physics, change Gravity Y from -9.81 to -.81.
+### 5. If you play your game on the emulator or device, fruit will spawn and bounce off the floor. But that fruit is falling really fast! Let’s change the gravity so the fruit falls slower. In Menu:Edit->Project Settings->Physics, change Gravity Y from -9.81 to -.81.
 
 ![Defying Gravity](https://ashanhol.github.io/assets/images/fruit_warrior/defying-gravity.png)
 
