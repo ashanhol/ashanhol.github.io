@@ -1,6 +1,6 @@
 # Progress Log
 
-## Finished:
+<!-- ## Finished:
 * Music Wearables Workshop with Women Who Code
 * Organize It
 * Getting Started With the OneDrive API
@@ -21,10 +21,9 @@
 * Dev Diary - Silent Dream Part 3
 * Contributing to Open Source
 * Open Source Team Contribution
-* FruitWarrior MR HoloLens Workshop
+* FruitWarrior MR HoloLens Workshop -->
 
-## In-Progress:
-
+<!-- ## In-Progress: -->
 
 ## Currently Working on:
 * Localize assets for the following pages:
@@ -32,30 +31,17 @@
 
 ## Issues:
 
-### Posts:
-* Five Steps to Making Your First VR Game
-    * Image Markdown isn't processing correctly - unclear why
-        * Issue appears to be specifically with Jekyll - files look fine in GitHub Repo
-    * Some lists are rendering weirdly
-* ~Music Wearables w/ WWC: What to do about unavailable video?~
-    * ~I put in a placeholder image w/ the original (unavailable) link for now~
-* PAX East - "Uh, no thanks" image in original post wasn't available
-* OneDrive API - image error
+### Individual Posts:
 
 ### Global:
 * Change image links from WP CDN to local
     * Save Image Assets first
 * Convert all .webp into .png, due to compatibility issues with Firefox & other browsers
-    * Organize It - Screenshot 4
-    * Organize It - Screenshot 14
 * Need to add link caption into earlier files via <em> tag hack
+    * I think this is done - double check
 
 ## Notes:
-* Switched to working on oldest posts first, since newer posts often linked to older posts, and this would result in broken links.
-* May need to doublecheck meta data on posts - specifically titles
+* May need to doublecheck meta data on posts
 * Need to check for broken links on posts
-* Adjust dates on Dev Diary posts?
-    * Should final project post be 1st or last?
 * Doublecheck Timestamps
-* Defense Brigade Part 2 - should Game Over image have caption?
 
