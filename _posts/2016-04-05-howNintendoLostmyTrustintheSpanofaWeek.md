@@ -51,7 +51,9 @@ Nintendo has hung me out to dry. Their actions have told me that they don’t ca
 
 It’s not easy to lose a lifelong fan. I was surprised by how strongly I felt – strongly enough to write this article. I really hope to see things at Nintendo change sooner rather than later.
 
-<br /><br /><br />
+<br />
+<hr>
+
 Edit: I keep trusting them again only to have my heart broken. So I’m going to start a list that I can add to so I won’t keep forgetting.
 
 Tone deaf [Paper Mario translation](https://www.polygon.com/2016/6/23/12014436/nintendo-paper-mario-color-splash-gamergate) referring to GG (6/23/16)
