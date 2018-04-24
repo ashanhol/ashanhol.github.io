@@ -29,101 +29,88 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 
 # Setting Up
 
-<ol>
-    <li>Make a new project.
-        <ul>
-            <li>First thing you should do is make a new project. This will bring up the project window.</li><br />
-            <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture1.png" alt="Unity - New Project Window">
-            <em style="display: block;">The Project Window</em>            
-            <li><span style="font-weight: bold;">Make sure</span> you select 3D. Give your project a good name. I named mine CollectEmAll.</li>
-        </ul>
-    </li>
-    <li>Import the Cardboard assets.
-        <ul>
-            <li>* Under Assets -> Import Package -> Custom Package, select the cardboard SDK.</li><br />
-            <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Screenshot-49.png" alt="Menu for importing the Cardboard assets">
-            <em style="display: block;">Menu for importing the Cardboard assets</em>
-            <li>Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use. </li>
-        </ul>
-    </li>
-    <li>Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.</li><br />
-    <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture2.png" alt="Saving the scene">
-    <em style="display: block;">Saving the scene</em>
-    <li>Create a Plane for the ground</li>
-    <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Creating a plane">
-    <em style="display: block;">Creating a plane</em>
-    <ul><li>Rename this plane to “Ground”.</li></ul><br />
-    <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Change position and scale">
-    <em style="display: block;">Change position and scale</em>
-    <ul><li>Change position to 0,0,0; and scale to 2,1,2.</li></ul><br />
-    <li>Create the borders</li>
-        <ul>
-            <li>Create a 3D cube.</li>
-            <img src="https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture5.png" alt="Creating the 3D cube">
-            <em style="display: block;">Yes the red thing is a sphere not a cube. Please make a cube not a sphere.</em>
-            <li>Rename the cube to LeftBorder. Set it’s position to -10, 0, 0; and its scale to 0.5,2, 20.5.</li>
-            <li>Duplicate LeftBorder and rename it to RightBorder. Change its position to 10, 0, 0; and its scale to 0.5, 2, 20.5.</li>
-            <li>Duplicate RightBorder and rename it to FarBorder. Change its position to 0, 0, 10; and its scale to 20.5, 2, 0.5.</li>
-            <li>Duplicate FarBorder and rename it to NearBorder. Change its position to 0, 0, -10; and its scale to 20.5, 2, 0.5.</li>
-            <li>Create an empty GameObject (under GameObject -> create empty). Rename it to Borders.</li>
-        </ul>
-</ol><br />
+# Setting Up
+### 1. Make a new project.
+* First thing you should do is make a new project. This will bring up the project window.
+
+![Unity - New Project Window](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture1.png)
+<em style="display: block;">The Project Window</em>
+* **Make sure** you select 3D. Give your project a good name. I named mine CollectEmAll.
+
+### 2. Import the Cardboard assets.
+* Under Assets -> Import Package -> Custom Package, select the cardboard SDK.
+
+![Menu for importing the Cardboard assets](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Screenshot-49.png)
+<em style="display: block;">Menu for importing the Cardboard assets</em>
+* Create a new folder under Assets (next to the Cardboard folder) called “Our Assets”. This will distinguish anything we create for the game from the Cardboard assets we use.
+
+### 3. Make a folder in “Our Assets” named “Scenes”. Save our scene (ctrl+S) and name it something along the lines of PlayingField.
+
+![Saving the scene](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture2.png)
+<em style="display: block;">Saving the scene</em>
+
+### 4. Create a Plane for the ground.
+![Creating a plane](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png)
+<em style="display: block;">Creating a plane</em>
+* Rename this plane to “Ground”.
+
+![Change position and scale](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png)
+<em style="display: block;">Change position and scale</em>
+* Change position to 0,0,0; and scale to 2,1,2.
+
+### 5. Create the borders
+* Create a 3D cube.
+
+![Creating the 3D cube](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture5.png)
+<em style="display: block;">Yes the red thing is a sphere not a cube. Please make a cube not a sphere.</em>
+* Rename the cube to LeftBorder. Set it’s position to -10, 0, 0; and its scale to 0.5,2, 20.5.
+* Duplicate LeftBorder and rename it to RightBorder. Change its position to 10, 0, 0; and its scale to 0.5, 2, 20.5.
+* Duplicate RightBorder and rename it to FarBorder. Change its position to 0, 0, 10; and its scale to 20.5, 2, 0.5.
+* Duplicate FarBorder and rename it to NearBorder. Change its position to 0, 0, -10; and its scale to 20.5, 2, 0.5.
+* Create an empty GameObject (under GameObject -> create empty). Rename it to Borders. <br />
 
 ![Grouping the borders](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture6.png)
 <em style="display: block;">Grouping the borders</em>
+* Drag them under empty game object. They should collapse and expand under Borders.
 
-Drag them under empty game object. They should collapse and expand under Borders.
-
-6. Materials
-    * Create new folder under “Our Assets” called “Materials”.
-    * Create 2 materials called “GroundMaterial” and “CollectableMaterial”.
+### 6. Materials
+* Create new folder under “Our Assets” called “Materials”.
+* Create 2 materials called “GroundMaterial” and “CollectableMaterial”. 
 
 ![Creating a material](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture9.png)
 <em style="display: block;">Creating a material</em>
-
-<ul>
-    <ul>
-        <li>Give them colors. Drag “GroundMaterial” onto the ground plane. You should see the ground change to that color.
-        </li>
-    <ul>
-</ul>
+* Give them colors. Drag “GroundMaterial” onto the ground plane. You should see the ground change to that color.
 
 ![Assigning a color](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture8.png)
-Assigning a color
+<em style="display: block;">Assigning a color</em>
 
-7. Locate Directional Light on the Hierarchy. Update it’s rotation to 50, 60, 0. Our playing field should now be illuminated.
+### 7. Locate Directional Light on the Hierarchy. 
+* Update it’s rotation to 50, 60, 0. 
+* Our playing field should now be illuminated.
 
 # Creating the Collectible
-1. Create another 3D cube. Name it Collectible and update its position to 0, 0.5, 0; and its rotation to 45, 45, 45.
-2. Create folder in “Our Assets” named “Scripts”. Create a new C# script in this folder (Under the Project tab go to Create -> C# script). Name the script ItemRotator.
+### 1. Create another 3D cube. 
+* Name it Collectible and update its position to 0, 0.5, 0; and its rotation to 45, 45, 45.
+
+### 2. Create folder in “Our Assets” named “Scripts”. 
+* Create a new C# script in this folder (Under the Project tab go to Create -> C# script). 
+* Name the script ItemRotator.
     * Double click on the script to launch your editor. On my Windows computer I use Visual Studio as the editor.
     * Add this line of code under the Update() function. This code constantly rotates the collectible.
 
 ![Code Sample](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture10.png)
-
-<ul>
-    <ul>
-        <li>Drag the ItemRotator script onto our Collectible 3D cube.
-        </li>
-    <ul>
-</ul>
+* Drag the ItemRotator script onto our Collectible 3D cube.
 
 3. Create a new folder in “Our Assets” named “Prefabs”.
 
     * **Definition:** A **prefab** is a special kind of asset in Unity that allows you to store a GameObject as a kind of template, from which you can create new instances in your scene. You can make instances unique by editing each instance individually, or you can make changes to the template by editing the prefab.
 
 3. Drag the Collectible cube into the “Prefabs” folder. This turns the collectible into a prefab.
-    * Create 12 collectibles and position them in the field.
+* Create 12 collectibles and position them in the field.
 
 ![A field of collectibles](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture11.png)
 <em style="display: block;">A field of collectibles</em>
-
-<ul>
-    <ul>
-        <li>Drag “CollectibleMaterial” onto the Collectible in the prefabs folder. You should see all the collectibles change color since you modified the prefab (template).
-        </li>
-    <ul>
-</ul>
+* Drag “CollectibleMaterial” onto the Collectible in the prefabs folder. You should see all the collectibles change color since you modified the prefab (template).
 
 # Make Your Game Cardboard Accessible
 
