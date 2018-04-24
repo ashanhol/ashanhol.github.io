@@ -55,7 +55,7 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
     <ul><li>Rename this plane to “Ground”.</li></ul><br />
     <img src="https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture3.png" alt="Change position and scale">
     <em style="display: block;">Change position and scale</em>
-    <li>Change position to 0,0,0; and scale to 2,1,2.</li><br />
+    <ul><li>Change position to 0,0,0; and scale to 2,1,2.</li></ul><br />
     <li>Create the borders</li>
         <ul>
             <li>Create a 3D cube.</li>
