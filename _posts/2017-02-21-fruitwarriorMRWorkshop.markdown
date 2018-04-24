@@ -82,7 +82,7 @@ The HoloToolkit has prefabs that let you use the HoloLens created mesh of your p
 
 ### 1. Add the Spatial Perception capability in your app, in Unity under Edit -> Project Settings -> Player -> Settings for Windows Store -> Publishing Settings -> Capabilities.
 
-![Spatial Mapping Setting](https://ashanhol.github.io/assets/images/fruit_warrior/spacial-mapping-setting.png)
+![Spatial Mapping Setting](https://ashanhol.github.io/assets/images/fruit_warrior/spatial-mapping-setting.png)
 
 ### 2. Drag the SpatialMapping prefab in Assets: HoloToolkit -> SpatialMapping -> Prefabs into your Hierarchy.
 ### 3. Click on the SpatialMapping object in your Hierarchy. In the Inspector on the right side, uncheck Draw Visual Meshes under Spatial Mapping Manager.
