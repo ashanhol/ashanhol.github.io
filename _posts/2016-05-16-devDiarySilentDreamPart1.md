@@ -5,7 +5,7 @@ date:   2016-05-16 16:39:32 -0400
 #categories:  [ "2D", "Game Design", "Game Dev", "Game Development", "Unity", "Unity3D", "Video Games" ]
 ---
 
-A little while ago I made a first draft of a game called [Defense Brigade](http://adinashanholtz.com/defense-brigade-game-design-with-unity3d/) which you can play [here](http://defensebrigade.azurewebsites.net/). While making it, I started publishing [dev diaries](https://ashanhol.github.io/2015/11/24/defenseBrigadeGameDesignwithUnity3D.html) as a way to track my progress and mention things that might have tripped me up.
+A little while ago I made a first draft of a game called [Defense Brigade](https://ashanhol.github.io/2015/11/25/defenseBrigadeGameDesignwithUnity3D.html) which you can play [here](http://defensebrigade.azurewebsites.net/). While making it, I started publishing [dev diaries](https://ashanhol.github.io/2015/11/24/defenseBrigadeGameDesignwithUnity3D.html) as a way to track my progress and mention things that might have tripped me up.
 
 Well, I decided to turn it into a real full fledged game to be ported to a store. I knew this was going to be a rather large task, there’s a million ways to improve what I had made from the original Defense Brigade. Here were some thoughts.
 
