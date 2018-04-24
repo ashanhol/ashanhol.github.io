@@ -101,11 +101,11 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 ![Code Sample](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture10.png)
 * Drag the ItemRotator script onto our Collectible 3D cube.
 
-3. Create a new folder in “Our Assets” named “Prefabs”.
+### 3. Create a new folder in “Our Assets” named “Prefabs”.
+* **Definition:** A **prefab** is a special kind of asset in Unity that allows you to store a GameObject as a kind of template, from which you can create new instances in your scene. You can make instances unique by editing each instance individually, or you can make changes to the template by editing the prefab.
 
-    * **Definition:** A **prefab** is a special kind of asset in Unity that allows you to store a GameObject as a kind of template, from which you can create new instances in your scene. You can make instances unique by editing each instance individually, or you can make changes to the template by editing the prefab.
-
-3. Drag the Collectible cube into the “Prefabs” folder. This turns the collectible into a prefab.
+### 4. Drag the Collectible cube into the “Prefabs” folder.
+* This turns the collectible into a prefab.
 * Create 12 collectibles and position them in the field.
 
 ![A field of collectibles](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture11.png)
@@ -114,7 +114,7 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 
 # Make Your Game Cardboard Accessible
 
-In the “Prefabs” folder **in “Cardboard“**, drag “CardboardMain” into the Hierarchy. This will be our our special VR camera.
+1. In the “Prefabs” folder **in “Cardboard“**, drag “CardboardMain” into the Hierarchy. This will be our our special VR camera.
 
 ![Drag CardboardMain into the Hierarchy](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture12.png)
 <em style="display: block;">Drag CardboardMain into the Hierarchy</em>
@@ -134,7 +134,8 @@ In the “Prefabs” folder **in “Cardboard“**, drag “CardboardMain” int
 
 ![Code for Collect script](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture15.png)
 <em style="display: block;">Code for Collect script</em>
-    * Drag Collect onto the **Collectible prefab**.
+
+* Drag Collect onto the **Collectible prefab**.
 
 2. Add an Event Trigger component (Add Component > Event > Event Trigger). Pointer Enter and Exit should be set to Collect.SetGazedAt() and Pointer Click should be set to Collect.Collected(). See picture below if confused.
 
@@ -148,17 +149,13 @@ In the “Prefabs” folder **in “Cardboard“**, drag “CardboardMain” int
 ![GameController tag](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture17.png)
 <em style="display: block;">GameController tag</em>
 
-<ul>
-    <ul>
-        <li>Double click on the GameController script to edit it.</li>
-        <li>Edit the code to look like below. Don’t forget to import UnityEngine.UI; at the top. The Text objects will hold the score counter and “you win” message. SetCountText() writes the score counter and win text to the screen.</li>
-    <ul>
-</ul>
+* Double click on the GameController script to edit it.
+* Edit the code to look like below. Don’t forget to import UnityEngine.UI; at the top. The Text objects will hold the score counter and “you win” message. SetCountText() writes the score counter and win text to the screen.
 
 ![Code for Game Controller](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture18.png)
 Code for Game Controller
 
-<li>Back in Unity, if you click on the Game Controller object and look in the inspector, you can see how Count Text and Win Text appear as boxes where you can set objects.</li>
+* Back in Unity, if you click on the Game Controller object and look in the inspector, you can see how Count Text and Win Text appear as boxes where you can set objects.
 
 4. Create UI Text element (In GameObject> UI> Text). You can see in the Hierarchy that Canvas and EventSystem were created. Rename Text to CountText. Create another UI Text element with the name WinText. Drag these onto the respective slots in Game Controller (under the script).
 
@@ -196,12 +193,7 @@ Code for Game Controller
 
 ![Adding open scenes and player settings](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture24.png)
 <em style="display: block;">Adding open scenes and player settings</em>
-
-<ul>
-    <ul>
-        <li>Under “Other Settings”, make sure to rename Bundle Identifier to something along the lines of com.name.project.</li>
-    </ul>
-</ul>
+* Under “Other Settings”, make sure to rename Bundle Identifier to something along the lines of com.name.project.
 
 ![Renaming the Bundle Identifier](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/02/Picture25.png)
 <em style="display: block;">I eventually ended up naming mine com.feytechnologist.cardboardcollect</em>
