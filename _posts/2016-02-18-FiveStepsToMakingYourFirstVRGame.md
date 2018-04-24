@@ -28,8 +28,6 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 * Downloading the Cardboard SDK for Unity (as well as their demo if you wish).
 
 # Setting Up
-
-# Setting Up
 ### 1. Make a new project.
 * First thing you should do is make a new project. This will bring up the project window.
 
