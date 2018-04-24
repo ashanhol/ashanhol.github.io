@@ -32,6 +32,9 @@
 ## Issues:
 
 ### Individual Posts:
+* Fruit Warrior
+    * Images need captions
+    * Solved Numbered Lists issue (images break list count) by replacing them with h3 tags
 
 ### Global:
 * Change image links from WP CDN to local
