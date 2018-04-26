@@ -11,10 +11,10 @@ OneNote is one of the most popular note taking tools currently available cross-p
 
 The OneNote API runs on the Microsoft globally-available cloud, and sends data from your app into the user’s OneDrive. When the API sends the data to the OneNote notebook, it also does things like run OCR (optical character recognition) on images, rendering webpages as snapshot-images, and more. The OneNote API enables your app to capture HTML, images embedded in the request or at a URL, video, audio, email messages, and other common file types. Your app can even capture a snapshot image of a webpage for historical records and archiving.
 
-![Microsoft OneNote API](https://ashanhol.github.io/assets/images/getting_started_with_onenote/one_note.png)
+![Microsoft OneNote API]({{ site.url }}/assets/images/getting_started_with_onenote/one_note.png)
 <em style="display: block;">OneNote API sends and retrieves information from OneNote notebooks on OneDrive.</em>
 
-![Microsoft OneNote API Code Sample](https://ashanhol.github.io/assets/images/getting_started_with_onenote/one_note_code_sample.png)
+![Microsoft OneNote API Code Sample]({{ site.url }}/assets/images/getting_started_with_onenote/one_note_code_sample.png)
 <em style="display: block;">As shown here in Objective-C for iOS, it’s simple to build and submit the create-page request.</em>
 
 # Step-By-Step Instructions

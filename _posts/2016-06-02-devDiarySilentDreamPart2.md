@@ -20,5 +20,5 @@ Framing the game to have nightmares allowed us to create the “sweet dream”, 
 Having the sweet dream to collect now forces the player to move the child, making the game more difficult. Previously, you could have the child sit in one spot while the doll got rid of the enemies.
 A way to possibly improve gameplay could be to add a puzzle element through enemy movement. Complicated enemies or boss enemies would present more of a challenge. With more time it would be quite fun to implement it, but right now the primary focus is mobile controls and exporting the game to a store.
 
-[Dev Diary 1](https://ashanhol.github.io/2015/11/24/devDiarySilentDreamPart1.html)
+[Dev Diary 1]({{ site.url }}/2015/11/24/devDiarySilentDreamPart1.html)
 

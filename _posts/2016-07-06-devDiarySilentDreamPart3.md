@@ -6,7 +6,7 @@ date:   2016-07-06 19:06:50 -0400
 ---
 
 # Windows 10 Version
-This is a very special episode of dev diary where we discuss going through the process of adding UWP (universal windows platform) features to the Unity game [Silent Dream](https://ashanhol.github.io/2016/05/30/silentDream.html). Some aspects were pretty simple, some were more complicated. I even ran into some completely unexpected issues that took me a while to solve and went nowhere! 😊
+This is a very special episode of dev diary where we discuss going through the process of adding UWP (universal windows platform) features to the Unity game [Silent Dream]({{ site.url }}/2016/05/30/silentDream.html). Some aspects were pretty simple, some were more complicated. I even ran into some completely unexpected issues that took me a while to solve and went nowhere! 😊
 
 ## UWP Plugins for Unity
 First thing’s first, I had to download the correct plugins for Unity. The github for the plugins is here.
@@ -49,8 +49,8 @@ Change from Debug mode into Master
 
 Once you create your app bundle (see issue 1 above), you can upload the bundle to your app submission in your [Microsoft Developer account](https://developer.microsoft.com/en-us/dashboard/overview). If all goes well, you’ll be approved and have an app on the store!
 
-<a href="https://ashanhol.github.io/2016/05/30/silentDream.html" style="font-size: 1.25em; line-height: 1.2; margin: 2em 0 0.5em;">Check out the game!</a>
-<!-- ## [Check out the game!](https://ashanhol.github.io/2016/05/30/silentDream.html) -->
+<a href="{{ site.url }}/2016/05/30/silentDream.html" style="font-size: 1.25em; line-height: 1.2; margin: 2em 0 0.5em;">Check out the game!</a>
+<!-- ## [Check out the game!]({{ site.url }}/2016/05/30/silentDream.html) -->
 
-[Dev Diary 2](https://ashanhol.github.io/2015/11/24/devDiarySilentDreamPart2.html)
+[Dev Diary 2]({{ site.url }}/2015/11/24/devDiarySilentDreamPart2.html)
 
