@@ -33,7 +33,7 @@ Possibly coming for iOS. Stay tuned! In the meantime, check out the [developer d
 Link to the Github repository [here](https://github.com/ashanhol/Silent-Dream). Learn what goes into making a finished game!
 
 # Credits
-Game by [Adina Shanholtz](https://ashanhol.github.io/). Story and art by [Dominic D’Andrea](https://deadbirdart.weebly.com/).
+Game by [Adina Shanholtz]({{ site.url }}). Story and art by [Dominic D’Andrea](https://deadbirdart.weebly.com/).
 
 Adina and Dominic have been friends since college. Adina, wanting the experience of releasing a
 polished, finished game, sought out her multi­talented friend Dominic to draw the art assets. As game
