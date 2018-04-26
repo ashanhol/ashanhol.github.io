@@ -11,7 +11,7 @@ I’ve [used Construct2](https://channel9.msdn.com/Blogs/raw-tech/Intro-To-Const
 
 So introducing Defense Brigade! [Click Here](https://defensebrigade.azurewebsites.net/) to play.
 
-![Actual gameplay.](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/gameplay.png)
+![Actual gameplay.]({{site.url}}/assets/images/defense_brigade_game_design/gameplay.png)
 <em style="display: block">Actual gameplay.</em>
 
 # Idea

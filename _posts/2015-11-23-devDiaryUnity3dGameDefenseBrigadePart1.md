@@ -13,12 +13,12 @@ Basically it’s a 2-D game with top down perspective, and functions so that you
 # Character Movement
 The first thing I did was create character movement. The characters themselves are default sprites I found already loaded into Unity. It’s easier to get the basic game working with minimal art and add in fancier sprites and animation later.
 
-![characters](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/characters.png)
+![characters]({{site.url}}/assets/images/dev_diary_defense_brigade_part_1/characters.png)
 <em style="display: block;">The two characters and camera. Picture taken after game completion.</em>
 
 As for movement, a good chunk of the tutorials expect only one character and therefore use Input.GetAxis to get the horizontal and vertical movements. This makes sense as that method automatically adjusts to varying frame-rates. However, that method reads for both arrow keys and WASD, which meant I couldn’t use it for both characters since they would end up moving together. So instead I calculated velocity based on a vector that was updated by individual key presses. That way I could move only the strong character with WASD, and only the weak character with the arrow keys.  As for flipping horizontally and vertically, I multiplied the local scale by -1 as suggested by [this tutorial](https://unity3d.com/learn/tutorials/modules/beginner/2d/2d-overview?playlist=17093).
 
-![Movement code](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/11/characters.png)
+![Movement code]({{site.url}}/assets/images/dev_diary_defense_brigade_part_1/movementcode.png)
 <em style="display: block">Movement code for the strong character.</em>
 
 After character controllers I then made boundaries so the player wouldn’t go off the screen accidentally. This was just giving colliders to the characters and off screen boxes.

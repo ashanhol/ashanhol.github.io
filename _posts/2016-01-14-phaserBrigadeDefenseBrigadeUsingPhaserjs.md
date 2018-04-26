@@ -5,7 +5,7 @@ date:   2016-01-14 02:09:39 -0400
 #categories:  [ "Game Design", "Game Development", "gaming", "phaser", "phaser.js", "programming" ]
 ---
 
-![Phaser Brigade](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/01/Screenshot-2.png)
+![Phaser Brigade]({{site.url}}/assets/images/phaser_brigade/Screenshot-2.png)
 <em style="display: block;">Phaser Brigade</em>
 
 So in my tour around different game creation tools, I’ve so far done [Construct2](https://channel9.msdn.com/Blogs/raw-tech/Intro-To-Construct2-Course), GameMaker, Unity, and have finally worked my way to [Phaser.js](https://phaser.io/tutorials/getting-started). I recently designed a game called [Defense Brigade](https://adinashanholtz.com/2015/11/24/defense-brigade-game-design-with-unity3d/), which was designed with Unity, so what better way to learn a new game design tool than to recreate a simple game! Phaser is an open source framework that allows you to create games powered by WebGL and Canvas. I found their [tutorial](https://phaser.io/tutorials/making-your-first-phaser-game) on making your first game to be immensely helpful and it allowed me to jump right in. Phaser is very straightforward for those who have a stronger programming background, and reminded me a lot of using [Processing](https://processing.org/). That said, here are some thoughts I had while making this project.
@@ -22,7 +22,7 @@ Using Phaser to design games was a very different experience from other programs
 
 I used [Visual Studio Code](https://code.visualstudio.com/) to write the code for my level. It worked very well and syntax highlighted exactly the way I like it. VS Code works especially well for JavaScript projects as it allows for easy switching between multiple open files in a project, which you’re very likely to have in a Phaser game.
 
-![Coding Phaser in VS Code](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/01/Screenshot-3.png)
+![Coding Phaser in VS Code]({{site.url}}/assets/images/phaser_brigade/Screenshot-3.png)
 <em style="display: block;">Here’s an example of PhaserBrigade in VS Code</em>
 
 # Getting Started
