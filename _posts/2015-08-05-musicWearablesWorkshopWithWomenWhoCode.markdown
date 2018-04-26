@@ -7,9 +7,7 @@ date:   2015-08-05 13:01:05 -0400
 
 Hello! First off I’d like to start by welcoming you to my new blog. Part of my job as a Technical Evangelist* is going to cool meetups, and on Monday I got to go to a really cool meetup on music and wearables with Women Who Code NYC. In college I had done some work with soft circuits and arduinos, so I already had a little experience In the past. I’ve used conductive thread, bread boarding, and soldering to make things, and at this meetup I had the chance to use conductive tape and learned that graphite and conductive ink can also be used with boards. This definitely expanded our options, and we ended up making a touchable synthesizer using conductive tape on a piece of paper.
 
-![display.jpg](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2015/08/display.jpg)
-
- 
+![display.jpg]({{site.url}}/assets/images/display.jpg)
 
 In addition to getting to play with arduinos again, I got to try the MakeyMakey and and the BareConductive Touch Board. Now I had heard about the MakeyMakey when the KickStarter was going on and I was really excited to try it since it seemed intuitive to use. In addition to the water piano (video below) we made DDR with playable tinfoil touch pads and touch tetris, The MakeyMakey seems like it’d be great for an intro tech workshop for adults and kids since it’s easy to use and really easy to be creative. No easier way to mix tech and art :smiley:
 
