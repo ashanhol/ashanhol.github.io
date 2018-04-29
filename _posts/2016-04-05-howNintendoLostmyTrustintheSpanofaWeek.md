@@ -21,7 +21,7 @@ From what I remember, Nintendo was never about doing what’s commonplace. Ninte
 
 So you can imagine that it’s extremely disappointing to now see Nintendo monetizing its users at our own expense.
 
-![Purchase Miltomo Coins screenshot](https://i0.wp.com/adinashanholtz.com/wp-content/uploads/2016/04/IMG_4424.png)
+![Purchase Miltomo Coins screenshot]({{site.url}}/assets/images/nintendo_lost_my_trust/IMG_4424.png)
 
 I guess we should have seen this coming with some of Nintendo’s less hyped [recent releases](https://www.macworld.com/article/2987178/ios/freemium-field-test-pok-mon-shuffle-shakes-up-nintendos-classic-with-match-three-battles.html.
 This whole game is a crude facade for data collecting and microtransactions. Very little of the game is actually playable. The whole concept is a rewards based system for answering questions about yourself and your (real life) friends. By answering questions, the player earns coins they can spend on outfitting their mii. There’s no way to meet new people unless they’re friends of friends. You even have to be mutual followers on Twitter or Facebook friends. This clearly means this game is marketed towards young adults and up. I’ve heard people joking about how they’re data collecting on Mii-lenials.
@@ -34,14 +34,14 @@ Club Nintendo was a nice gesture to fans to show appreciation. Games came with a
 
 Last year Nintendo announced they were shutting down Club Nintendo for a new rewards program. This is what it looks like.
 
-![Screenshot of new rewards program](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/04/Screen-Shot-2016-04-05-at-5.12.16-PM.png)
+![Screenshot of new rewards program]({{site.url}}/assets/images/nintendo_lost_my_trust/Screen-Shot-2016-04-05-at-5.12.16-PM.png)
 
 Miitomo is now integrated into their rewards system. Gold coins are earned by buying games.
 
-![Screenshot of Miltomo's integration into the rewards system](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/04/Screen-Shot-2016-04-05-at-5.12.47-PM.png)
+![Screenshot of Miltomo's integration into the rewards system]({{site.url}}/assets/images/nintendo_lost_my_trust/Screen-Shot-2016-04-05-at-5.12.47-PM.png)
 
 There’s no more physical rewards. Nothing tangible or special. In fact, all of the game rewards are now old games.
-![Screenshot of rewards - all of them are now old games](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/04/Screen-Shot-2016-04-05-at-5.12.30-PM.png)
+![Screenshot of rewards - all of them are now old games]({{site.url}}/assets/images/nintendo_lost_my_trust/Screen-Shot-2016-04-05-at-5.12.30-PM.png)
 
 You can redeem rewards with a combination of these coins.
 Nintendo’s new reward system feels like one giant microtransaction. I haven’t felt this betrayed as a game consumer since Neopets implemented the Neocash system.

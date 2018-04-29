@@ -5,7 +5,7 @@ date:   2016-12-14 15:53:10 -0400
 #categories:  [ ".NET", ".NET Core", "C#", "coding", "Dev Diary", "development", "dotnet core", "Git", "github", "JabbR", "Open Source", "OSS", "programming", "projects" ]
 ---
 
-A little bit ago I made a [blog post]({{ site.url }}/contributing-to-open-source/) detailing an open source project I worked on called JabbR. It was waaaaay to hard to cram everything we learned into one blog post, so I’m dedicating this to discussing the “JabbR-Core Process”.
+A little bit ago I made a [blog post]({{site.url}}/2016/11/21/contributing-to-open-source/) detailing an open source project I worked on called JabbR. It was waaaaay to hard to cram everything we learned into one blog post, so I’m dedicating this to discussing the “JabbR-Core Process”.
 Breaking it down:
 
 * [Where did we start? Porting vs. Refactoring & Re-architecting.](#step-one-starting)
@@ -27,7 +27,7 @@ For ASP.NET Core, this meant making sure files like our Startup.cs and Project.J
 If you don’t know what git is, I’ll point you to this [handy guide](https://www.tobiahz.com/2014/08/intro-git-github-0/) my awesome coworker Tobiah Zarlez wrote.
 Basically using git for the first half of this project was like this.
 
-![XKCD_Git.png](https://i2.wp.com/imgs.xkcd.com/comics/git.png?resize=330%2C478)
+![XKCD_Git.png]({{site.url}}/assets/images/open_source_team_contribution/xkcd-git.png)
 
 I never thought I would get to the point where it didn’t feel like that comic, but even though I still have to look up the merge command to make sure I don’t go the wrong way, I actually feel comfortable with this tool. Our team’s version of “friend you call who knows git” was [James Earle](https://twitter.com/ItsJamesIRL). It’s always really great to work with someone who’s not afraid to jump in and try to fix a messy issue when you’re first learning.
 
@@ -36,12 +36,12 @@ Here are some **common mistakes** our team ran into while working on this projec
 * Not actually adding your changes when trying to commit.
    -Turns out `git add .` doesn’t add from the directory above you.
 
-![Commits.png](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/12/overvio.jpg?resize=1024%2C593)
+![Commits.png]({{site.url}}/assets/images/open_source_team_contribution/overvio.jpg)
 
 After creating a pull request, not merging in the latest copy of the destination branch into your source branch.
 -Not gonna lie, git seems like a bunch of magic when you’re first using it. I didn’t quite understand what was going on when you accepted a pull request, so I would make my features, have someone test them, then have my pull request merged in. For reference, _**DON’T DO THAT**_. We’d run into situations where suddenly our main branch would no longer work. What I should have done was after testing my features, merge in the latest copy of the main branch, have someone else test it and :shipit:, then accept my pull request.
 
-![Commits.png](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/12/pr.png?resize=1024%2C571)
+![Commits.png]({{site.url}}/assets/images/open_source_team_contribution/pr.png)
 
 * Windows vs. Unix capitalization differences.
     * Did you know that Unix and Windows systems are different in how they see lowercase vs. upercase versions of files? It would have [saved me a lot of time](https://github.com/MachUpskillingFY17/JabbR-Core/pull/305) to know index.cs is not the same as Index.cs, and will make my build crash on a Unix machine. One more reason to always test your application on multiple kinds of systems.
@@ -53,7 +53,7 @@ Not really.
 We started by using the same tool used by the .NET Core team, which aggregated data from Github and displayed what everyone was working on. However, that’s really all it did- display your open issues. There wasn’t really anything other than Github itself to use for other things like managing milestones, finding issues, etc. We were several weeks into the project before we realized we were creating much more work for ourselves combing through lists of everything that’s open, trying to organize it the way we needed.
 So we switched to this tool called Overv.io (pronounced overview?), that’s built on top of Github.
 
-![Commits.png](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/12/overvio.jpg?resize=1024%2C593)
+![Commits.png]({{site.url}}/assets/images/open_source_team_contribution/overvio.jpg)
 
 Overv.io doesn’t create things that Github doesn’t have, it just lets you customize your workflow by displaying the data in a way that’s easiest for your team. The “In Progress” and “Blocked” tabs are just tags on an issue, but displayed in a way that let’s us view our workflow. It also has some nifty sorting features such as seeing which issues have gotten to old (or “toxic”), blocking/greying out certain users to better see what people are working on, and even lets you create issues in bulk.
 

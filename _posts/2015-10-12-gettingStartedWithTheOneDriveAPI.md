@@ -11,7 +11,7 @@ The OneDrive API allows developers to integrate OneDrive into their apps to stor
 * Resumable uploads of files up to 10 GB via file-fragment uploading for working with rich content, like HD videos.
 Customizable file thumbnail images for delivering a more integrated experience across your app and OneDrive.
 
-![OneDrive API launch blog post banner]({{ site.url }}/assets/images/getting_started_with_onedrive/OneDrive-API-launch-blog-post-banner.png)
+![OneDrive API launch blog post banner]({{site.url}}/assets/images/getting_started_with_onedrive/OneDrive-API-launch-blog-post-banner.png)
 
 # Step-By-Step Instructions
 You can find step-by-step setup and how-to articles as well as coding tips and tricks for using the Microsoft OneDrive API [here](https://dev.onedrive.com/README.htm).

@@ -9,16 +9,16 @@ Almost a month ago when I opened up Word to create my roadmap for this game, I c
 
 [Dominic D’Andrea](http://deadbirdart.weebly.com/), who did the art for the game, also wrote the backstory for the game as well. Not all games need to have a story aspect to them, but I felt it would give the game a bit more depth and urgency. The original iteration of the game had infinitely spawning enemies that targeted the weak character. Creating a story helped to re-frame the game to help us add not only a new way to end, but also add a more interesting way to control the players, which helped address the original game’s fundamental problems (mentioned previously).
 
-![Sweet Dream](http://i1.wp.com/adinashanholtz.com/wp-content/uploads/2016/06/Screenshot-76.png)
+![Sweet Dream]({{site.url}}/assets/images/silent_dream_part_2/Screenshot-76.png)
 <em style="display: block !important;">Sweet Dream</em>
 
 Framing the game to have nightmares allowed us to create the “sweet dream”, which the child collects in order to wake up. While the enemies still spawn infinitely, the object of the game is no longer to last as long as possible, rather now the player has to avoid enemies, collect sweet dreams, and try not to die in the process. That sounds a lot more interesting than before.
 
-![Screenshot of the game play in Silent Dream.](http://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/05/Screenshot-75.png) 
+![Screenshot of the game play in Silent Dream.]({{site.url}}/assets/images/silent_dream_part_2/Screenshot-75.png) 
 <em style="display: block;">Screenshot of the game play.</em>
 
 Having the sweet dream to collect now forces the player to move the child, making the game more difficult. Previously, you could have the child sit in one spot while the doll got rid of the enemies.
 A way to possibly improve gameplay could be to add a puzzle element through enemy movement. Complicated enemies or boss enemies would present more of a challenge. With more time it would be quite fun to implement it, but right now the primary focus is mobile controls and exporting the game to a store.
 
-[Dev Diary 1]({{ site.url }}/2015/11/24/devDiarySilentDreamPart1.html)
+[Dev Diary 1]({{site.url}}/2015/11/24/devDiarySilentDreamPart1.html)
 

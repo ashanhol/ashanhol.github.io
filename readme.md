@@ -31,10 +31,42 @@
 
 ## Issues:
 
+### Assets Obtained:
+
+### Links rewritten:
+* Fruit Warrior ML
+* Deploying Azure
+* How Nintendo Lost My Trust
+* Jumping to Conclusions - PAX
+* Silent Dream
+* Dev Diary - Silent Dream 1
+* Dev Diary - Silent Dream 2
+* Dev Diary - Silent Dream 3
+* Phaser Brigade
+* Defense Brigade - Game Design
+* Dev Diary - Defense Brigade 2
+* Dev Diary - Defense Brigade 3
+* Android USB
+* Open Source Team Contribution
+* 5 Steps to VR Game
+* Music Wearables
+* Organize It
+* OneDrive
+* OneNote
+* Contributing to Open Source 
+* Dev Diary - Defense Brigade 1
+
+
 ### Individual Posts:
+* Need to check for adinashanholtz.com links and replace with proper site.url links
+* Run check for {{ site.url }} and replace with {{site.url}}
+* Run check for {{site.url}} links and make sure they have .html extensions
 * Fruit Warrior
+    * Check all the Code sections and the use of {{site.url}}
+        * Also for general issues
     * Images need captions
     * Solved Numbered Lists issue (images break list count) by replacing them with h3 tags
+* PAX - has that image that's just not available anywhere
 
 ### Global:
 * Change image links from WP CDN to local

@@ -23,11 +23,11 @@ I was inspired by the gameplay in Binding of Isaac, which also uses both WASD an
 
 Defense Brigade took me about two weeks to make. You can track the progress made in my dev diary, the links to which I have listed below. I list the processes of creating a character controller, spawning waves, obstacles, sound, score and health display, instructions, lose screen, and finally deploying the game to a website.
 
-[Dev Diary #1]({{ site.url }}/2015/11/24/devDiaryUnity3dGameDefenseBrigadePart1.html)
+[Dev Diary #1]({{site.url}}/2015/11/24/devDiaryUnity3dGameDefenseBrigadePart1.html)
 
-[Dev Diary #2]({{ site.url }}/2015/11/24/devDiaryUnity3dGameDefenseBrigadePart2.html)
+[Dev Diary #2]({{site.url}}/2015/11/24/devDiaryUnity3dGameDefenseBrigadePart2.html)
 
-[Dev Diary #3]({{ site.url }}/2015/11/24/devDiaryUnity3dGameDefenseBrigadePart3.html)
+[Dev Diary #3]({{site.url}}/2015/11/24/devDiaryUnity3dGameDefenseBrigadePart3.html)
 
 # Future Improvements
 Ideally I’d have different kinds of enemies, as well as touched up character sprites and animations. Right now sprites are set to a default sprite included with Unity3D. I find it useful to start with a box or a circle and then change it to something fancier.  In the same vein of making it pretty, I would also want a nice self designed background.

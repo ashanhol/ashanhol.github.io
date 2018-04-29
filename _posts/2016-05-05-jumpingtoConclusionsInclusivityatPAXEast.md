@@ -17,7 +17,7 @@ Well I’m writing this post now to inform you dear readers that I might have be
 I’ll start at the beginning. PAX East is a yearly video game expo held in Boston. With hundreds of booths and over 70,000 attendees, there is something there for every aspect of game culture. Each year PAX selects a few panels based on game development. My panel “Crafting Custom Controllers for More Immersive Gaming Experiences” was chosen and I presented it with a couple of awesome coworkers. As soon as I stepped into the convention there were two big realizations that hit me.
 The first was the sheer amount of people.
 
-![crowd shot at PAX East](http://i1.wp.com/s3.amazonaws.com/media.wbur.org/wordpress/1/files/2016/04/0422_Pax15.jpg?resize=1112%2C741)
+![crowd shot at PAX East]({{site.url}}/assets/images/jumping_to_conclusions_pax/0422_Pax15.jpg)
 <em style="display: block;">Image from [here](http://www.wbur.org/2016/04/22/pax-east-boston-photos)</em>
 
 The second was the diversity of people there.
@@ -26,7 +26,7 @@ I had a blast at the diversity lounge, which I found out was an initiative intro
 Everything about the lounge said “safe space”. It was a quieter environment with booths dedicated to [accessibility](http://www.ablegamers.com/) and [safe gaming spaces](http://gaymerx.com/).
 When I was recharged enough to delve into the massive expo space, I made sure to hit up plenty of indie games.
 
-![Playing Super Rock Blasters at the Playcrafting booth](https://pbs.twimg.com/media/Cg0Z7_TUYAAt2St.jpg:large)
+![Playing Super Rock Blasters at the Playcrafting booth]({{site.url}}/assets/images/jumping_to_conclusions_pax/Cg0Z7_TUYAAt2St.jpg)
 Playing Super Rock Blasters at the Playcrafting booth
 
 I approached PAX East expecting gatekeeping attitudes, crowds of men, and identical panels. I was pleasantly surprised to find almost none of that.

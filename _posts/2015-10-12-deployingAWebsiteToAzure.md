@@ -9,7 +9,7 @@ date:   2015-10-12 15:51:13 -0400
 
 We have our website, now how do we get it on the cloud? Using popular source control systems such as GitHub, BitBucket, or CodePlex, it’s easy to use Azure’s built-in features to automate web app deployment. Azure makes it easy to roll back to earlier deployments if necessary.
 
-![Changing the Deployment to Git](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/azure5-disconnect.png)
+![Changing the Deployment to Git]({{site.url}}/assets/images/deploying_a_website_to_azure/azure5-disconnect.png)
 <em style="display: block">Changing the Deployment to Git</em>
 
 <!-- List -->
@@ -23,7 +23,7 @@ We have our website, now how do we get it on the cloud? Using popular source con
 
 Visual Studio is a Microsoft IDE that is useful for web development and makes it easy to deploy web apps. Visual Studio offers more features, such as creating and deleting web apps, viewing logs as they are created in real-time, debugging remotely, and most importantly, integrating with source control systems such as Git repositories.
 
-![Publishing the application in Visual Studio](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/choosepublish.png)
+![Publishing the application in Visual Studio]({{site.url}}/assets/images/deploying_a_website_to_azure/choosepublish.png)
 <em style="display: block">Publishing the application in Visual Studio</em>
 
 **How to set up step-by-step**
@@ -33,10 +33,10 @@ Visual Studio is a Microsoft IDE that is useful for web development and makes it
 
 Want to use the useful Python framework Flask with the Azure cloud? Then look no further! You’ll create the website from the Azure gallery, set up Git deployment, and clone and run the repository locally. When you need to make changes, you can commit and push them to Azure.
 
-![ptvs-solution-flask](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/ptvs-solution-flask.png)
+![ptvs-solution-flask]({{site.url}}/assets/images/deploying_a_website_to_azure/ptvs-solution-flask.png)
 <em style="display: block">Coding a Flask web app in Visual Studio</em>
 
-![Running a Flask web app locally.](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/windows-browser-flask.png)
+![Running a Flask web app locally.]({{site.url}}/assets/images/deploying_a_website_to_azure/windows-browser-flask.png)
 <em style="display: block">Running a Flask web app locally.</em>
 
 <!-- List -->
@@ -50,10 +50,10 @@ Want to use the useful Python framework Flask with the Azure cloud? Then look no
 
 Want to use Ruby on Rails with the Azure cloud? Then look no further! You’ll create an Azure VM with a Linux image and deploy it to the cloud.
 
-![Virtual Machines List](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/vmlist.png)
+![Virtual Machines List]({{site.url}}/assets/images/deploying_a_website_to_azure/vmlist.png)
 <em style="display: block">Virtual Machines List</em>
 
-![Ruby on Rails web app running on Azure](https://i1.wp.com/adinashanholtz.com/wp-content/uploads/2015/10/basicrailscloud.png)
+![Ruby on Rails web app running on Azure]({{site.url}}/assets/images/deploying_a_website_to_azure/basicrailscloud.png)
 <em style="display: block">Ruby on Rails web app running on Azure</em>
 
 <!-- List -->

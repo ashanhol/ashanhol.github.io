@@ -5,7 +5,7 @@ date:   2016-07-06 19:06:50 -0400
 #categories:  [ "2D", "Android", "desktop", "Game Development", "mobile", "Unity", "Unity3D", "Video Games", "windows 10" ]
 ---
 
-![Screenshot of Silent Dream](https://i2.wp.com/adinashanholtz.com/wp-content/uploads/2016/05/Screenshot-103.png)
+![Screenshot of Silent Dream]({{site.url}}/assets/images/silent_dream/Screenshot-103.png)
 
 # Summary
 Silent Dream is a 2D game for desktop and mobile that uses two sets of input to control two different characters
