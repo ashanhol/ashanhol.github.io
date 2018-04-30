@@ -63,7 +63,10 @@
         * Also for general issues
     * Images need captions
     * Solved Numbered Lists issue (images break list count) by replacing them with h3 tags
+* Five Steps to VR Game
+    * Make Your Cardboard Accessible section isn't numbering properly
 * PAX - has that image that's just not available anywhere
+    * Should I just make a "this image is no longer available" png?
 * Defense Brigade pt 2 - Is it possible to have the code word wrap?
     * This needs sass/css - see [here](https://david-kerwick.github.io/blog/blogger/2015/07/24/wrapping-code-jeykll-pygments.html)
         * `pre { white-space: pre-wrap; }`
