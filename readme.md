@@ -58,15 +58,16 @@
 
 
 ### Individual Posts:
-* Need to check for adinashanholtz.com links and replace with proper site.url links
-* Run check for {{ site.url }} and replace with {{site.url}}
-* Run check for {{site.url}} links and make sure they have .html extensions
 * Fruit Warrior
     * Check all the Code sections and the use of {{site.url}}
         * Also for general issues
     * Images need captions
     * Solved Numbered Lists issue (images break list count) by replacing them with h3 tags
 * PAX - has that image that's just not available anywhere
+* Defense Brigade pt 2 - Is it possible to have the code word wrap?
+    * This needs sass/css - see [here](https://david-kerwick.github.io/blog/blogger/2015/07/24/wrapping-code-jeykll-pygments.html)
+        * `pre { white-space: pre-wrap; }`
+    * 
 
 ### Global:
 * Change image links from WP CDN to local
