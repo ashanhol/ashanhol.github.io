@@ -96,7 +96,8 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
     * Double click on the script to launch your editor. On my Windows computer I use Visual Studio as the editor.
     * Add this line of code under the Update() function. This code constantly rotates the collectible.
 
-![Code Sample]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture10.png)
+![ItemRotator.cs code sample]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture10.png)
+
 * Drag the ItemRotator script onto our Collectible 3D cube.
 
 ### 3. Create a new folder in “Our Assets” named “Prefabs”.
@@ -108,6 +109,7 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 
 ![A field of collectibles]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture11.png)
 <em style="display: block;">A field of collectibles</em>
+
 * Drag “CollectibleMaterial” onto the Collectible in the prefabs folder. You should see all the collectibles change color since you modified the prefab (template).
 
 # Make Your Game Cardboard Accessible
