@@ -17,7 +17,7 @@ These variables are displayed to the screen with a GUIText object. In the game c
 Health is a little different from score. Since health is contingent on the weak character’s status, I attached a “gameover” script that keeps track of when the weak character gets hit by an enemy, and updates the game controller’s subtract health function and triggers temporary invincibility accordingly. Additionally, it plays a “hit” sound. I found the code from [this tutorial](https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/sound-effects-scripting) was very helpful for sound.
 
 # Game Over
-Additionally, if the health variable gets below zero, the gameover script will trigger to a game over screen. This is done with  ```Application.LoadLevel(“Scene name”)```. One thing to note (which confused me for a bit) is in order to make sure the next scene actually loads when you play the game, you have to add it to your “build”. Just referencing it in the script isn’t enough.
+Additionally, if the health variable gets below zero, the gameover script will trigger to a game over screen. This is done with  `Application.LoadLevel(“Scene name”)`. One thing to note (which confused me for a bit) is in order to make sure the next scene actually loads when you play the game, you have to add it to your “build”. Just referencing it in the script isn’t enough.
 
 ![build]({{site.url}}/assets/images/dev_diary_defense_brigade_part_3/build.png)
 <em style="display: block;">Adding gameover to your build</em>
