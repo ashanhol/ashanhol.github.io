@@ -23,7 +23,7 @@ So you can imagine that it’s extremely disappointing to now see Nintendo monet
 
 ![Purchase Miltomo Coins screenshot]({{site.url}}/assets/images/nintendo_lost_my_trust/IMG_4424.png)
 
-I guess we should have seen this coming with some of Nintendo’s less hyped [recent releases](https://www.macworld.com/article/2987178/ios/freemium-field-test-pok-mon-shuffle-shakes-up-nintendos-classic-with-match-three-battles.html.
+I guess we should have seen this coming with some of Nintendo’s less hyped [recent releases](https://www.macworld.com/article/2987178/ios/freemium-field-test-pok-mon-shuffle-shakes-up-nintendos-classic-with-match-three-battles.html).
 This whole game is a crude facade for data collecting and microtransactions. Very little of the game is actually playable. The whole concept is a rewards based system for answering questions about yourself and your (real life) friends. By answering questions, the player earns coins they can spend on outfitting their mii. There’s no way to meet new people unless they’re friends of friends. You even have to be mutual followers on Twitter or Facebook friends. This clearly means this game is marketed towards young adults and up. I’ve heard people joking about how they’re data collecting on Mii-lenials.
 
 It’s… really sad.
