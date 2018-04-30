@@ -28,6 +28,7 @@ If you don’t know what git is, I’ll point you to this [handy guide](https://
 Basically using git for the first half of this project was like this.
 
 ![XKCD_Git.png]({{site.url}}/assets/images/open_source_team_contribution/xkcd-git.png)
+<em style="display: block;">Image from XKCD</em>
 
 I never thought I would get to the point where it didn’t feel like that comic, but even though I still have to look up the merge command to make sure I don’t go the wrong way, I actually feel comfortable with this tool. Our team’s version of “friend you call who knows git” was [James Earle](https://twitter.com/ItsJamesIRL). It’s always really great to work with someone who’s not afraid to jump in and try to fix a messy issue when you’re first learning.
 
@@ -36,12 +37,14 @@ Here are some **common mistakes** our team ran into while working on this projec
 * Not actually adding your changes when trying to commit.
    -Turns out `git add .` doesn’t add from the directory above you.
 
-![Commits.png]({{site.url}}/assets/images/open_source_team_contribution/overvio.jpg)
+![TFW your changes don’t commit]({{site.url}}/assets/images/open_source_team_contribution/commits.jpg)
+<em style="display: block;">TFW your changes don’t commit</em>
 
 After creating a pull request, not merging in the latest copy of the destination branch into your source branch.
 -Not gonna lie, git seems like a bunch of magic when you’re first using it. I didn’t quite understand what was going on when you accepted a pull request, so I would make my features, have someone test them, then have my pull request merged in. For reference, _**DON’T DO THAT**_. We’d run into situations where suddenly our main branch would no longer work. What I should have done was after testing my features, merge in the latest copy of the main branch, have someone else test it and :shipit:, then accept my pull request.
 
-![Commits.png]({{site.url}}/assets/images/open_source_team_contribution/pr.png)
+![The secret formula behind the Github pull request]({{site.url}}/assets/images/open_source_team_contribution/pr.png)
+<em style="display: block;">The secret formula behind the Github pull request</em>
 
 * Windows vs. Unix capitalization differences.
     * Did you know that Unix and Windows systems are different in how they see lowercase vs. upercase versions of files? It would have [saved me a lot of time](https://github.com/MachUpskillingFY17/JabbR-Core/pull/305) to know index.cs is not the same as Index.cs, and will make my build crash on a Unix machine. One more reason to always test your application on multiple kinds of systems.
@@ -53,7 +56,8 @@ Not really.
 We started by using the same tool used by the .NET Core team, which aggregated data from Github and displayed what everyone was working on. However, that’s really all it did- display your open issues. There wasn’t really anything other than Github itself to use for other things like managing milestones, finding issues, etc. We were several weeks into the project before we realized we were creating much more work for ourselves combing through lists of everything that’s open, trying to organize it the way we needed.
 So we switched to this tool called Overv.io (pronounced overview?), that’s built on top of Github.
 
-![Commits.png]({{site.url}}/assets/images/open_source_team_contribution/overvio.jpg)
+![Overv.io]({{site.url}}/assets/images/open_source_team_contribution/overvio.jpg)
+<em style="display: block;">Pay no attention to when this screenshot was taken.</em>
 
 Overv.io doesn’t create things that Github doesn’t have, it just lets you customize your workflow by displaying the data in a way that’s easiest for your team. The “In Progress” and “Blocked” tabs are just tags on an issue, but displayed in a way that let’s us view our workflow. It also has some nifty sorting features such as seeing which issues have gotten to old (or “toxic”), blocking/greying out certain users to better see what people are working on, and even lets you create issues in bulk.
 
