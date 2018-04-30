@@ -114,37 +114,44 @@ If you’re planning on porting to **iOS**, please follow the steps outlined in 
 
 # Make Your Game Cardboard Accessible
 
-1. In the “Prefabs” folder **in “Cardboard“**, drag “CardboardMain” into the Hierarchy. This will be our our special VR camera.
+### 1. In the “Prefabs” folder **in “Cardboard“**, drag “CardboardMain” into the Hierarchy. 
+* This will be our our special VR camera.
 
 ![Drag CardboardMain into the Hierarchy]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture12.png)
 <em style="display: block;">Drag CardboardMain into the Hierarchy</em>
 
-2. Drop down CardboardMain, and under that drop down Head. Select Main Camera and add a Physics Raycaster (under the Add Component > Event > Physics Raycaster) so we can interact with 3D objects in the scene.
+### 2. Drop down CardboardMain, and under that drop down Head. 
+* Select Main Camera and add a Physics Raycaster (under the Add Component > Event > Physics Raycaster) so we can interact with 3D objects in the scene.
 
 ![Adding a Physics Raycaster]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture13.png)
 <em style="display: block;">Add a Physics Raycaster</em>
 
-3. In “Cardboard” > “Prefabs” > “UI” drag “CardboardReticle” to child under Main Camera. This will give us the white circle that lets us know whether we’re interacting with 3D objects.
+### 3. In “Cardboard” > “Prefabs” > “UI” drag “CardboardReticle” to child under Main Camera. 
+* This will give us the white circle that lets us know whether we’re interacting with 3D objects.
+
 ![Adding the CardboardReticle]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture14.png)
 <em style="display: block;">Adding the CardboardReticle</em>
 
 # Collectible + GameController
-1. Create a new C# script in the “Scripts” folder named “Collect”. Double click on Collect to edit it.
-    * Add code below. Start(), LateUpdate(), SetGazedAt(), and Collected(). This script will change the color of the collectible based on whether or not we’re looking at it. Red if we’re not, green if we are. The code in LateUpdate() will exit the application in both iOS and Android if we press the back button at the top of the screen. Collected() sets the collectible to inactive so it’ll disappear from the screen.
+### 1. Create a new C# script in the “Scripts” folder named “Collect”. Double click on Collect to edit it.
+* Add code below. Start(), LateUpdate(), SetGazedAt(), and Collected(). This script will change the color of the collectible based on whether or not we’re looking at it. Red if we’re not, green if we are. 
+* The code in LateUpdate() will exit the application in both iOS and Android if we press the back button at the top of the screen. Collected() sets the collectible to inactive so it’ll disappear from the screen.
 
 ![Code for Collect script]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture15.png)
 <em style="display: block;">Code for Collect script</em>
 
 * Drag Collect onto the **Collectible prefab**.
 
-2. Add an Event Trigger component (Add Component > Event > Event Trigger). Pointer Enter and Exit should be set to Collect.SetGazedAt() and Pointer Click should be set to Collect.Collected(). See picture below if confused.
+### 2. Add an Event Trigger component (Add Component > Event > Event Trigger). 
+* Pointer Enter and Exit should be set to Collect.SetGazedAt() and Pointer Click should be set to Collect.Collected(). 
+* See picture below if confused.
 
 ![Event Trigger]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture16.png)
 <em style="display: block;">Event Trigger</em>
 
-3. Create a new empty Game Object called Game Controller.
-    * Create a new C# script in the “Scripts” folder named GameController and drag it onto the Game Controller object.
-    * Tag Game Controller with “GameController” tag.
+### 3. Create a new empty Game Object called Game Controller.
+* Create a new C# script in the “Scripts” folder named GameController and drag it onto the Game Controller object.
+* Tag Game Controller with “GameController” tag.
 
 ![GameController tag]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture17.png)
 <em style="display: block;">GameController tag</em>
@@ -157,26 +164,33 @@ Code for Game Controller
 
 * Back in Unity, if you click on the Game Controller object and look in the inspector, you can see how Count Text and Win Text appear as boxes where you can set objects.
 
-4. Create UI Text element (In GameObject> UI> Text). You can see in the Hierarchy that Canvas and EventSystem were created. Rename Text to CountText. Create another UI Text element with the name WinText. Drag these onto the respective slots in Game Controller (under the script).
+### 4. Create UI Text element (In GameObject> UI> Text). 
+* You can see in the Hierarchy that Canvas and EventSystem were created. 
+* Rename Text to CountText. Create another UI Text element with the name WinText. 
+* Drag these onto the respective slots in Game Controller (under the script).
 
 ![Dragging Text objects into proper place]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture19.png)
 <em style="display: block;">Dragging Text objects into proper place</em>
 
-5. If you click on Canvas in the Hierarchy, in the Inspector under the Canvas component, **make sure** the Canvas’s Render Mode is in World Space with the Event Camera set to the CardboardMain MainCamera. **Make sure** it has Canvas Scalar, Graphic Raycaster, and Event System scripts.
+### 5. If you click on Canvas in the Hierarchy, in the Inspector under the Canvas component, **make sure** the Canvas’s Render Mode is in World Space with the Event Camera set to the CardboardMain MainCamera. 
+* **Make sure** it has Canvas Scalar, Graphic Raycaster, and Event System scripts.
 
 ![Components on Canvas]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture20.png)
 <em style="display: block;">Components on Canvas</em>
 
-6. Click on EventSystem in the Hierarchy. Make sure it has the Event System, Touch Input Module, Gaze Input Module, and Standalone Input Module scripts attached.
+### 6. Click on EventSystem in the Hierarchy. 
+* Make sure it has the Event System, Touch Input Module, Gaze Input Module, and Standalone Input Module scripts attached.
+
 ![Components on EventSystem]({{site.url}}/assets/images/five_steps_to_first_vr_game/Screenshot-51.png)
 <em style="display: block;">Components on EventSystem</em>
 
-7. Double click on the Collect script to edit it. We will now add some code to it to interface with the Game Controller.
+### 7. Double click on the Collect script to edit it. 
+* We will now add some code to it to interface with the Game Controller.
 
 ![Updated Collect script. Note the updates to the different functions.]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture21.png)
 <em style="display: block;">Updated Collect script. Note the updates to the different functions.</em>
 
-8. Drag CountText and WinText in the Scene view until you can see it in the Game view.
+### 8. Drag CountText and WinText in the Scene view until you can see it in the Game view.
 
 ![Positioning text in the world]({{site.url}}/assets/images/five_steps_to_first_vr_game/Picture22.png)
 <em style="display: block;">Positioning text in the world</em>
