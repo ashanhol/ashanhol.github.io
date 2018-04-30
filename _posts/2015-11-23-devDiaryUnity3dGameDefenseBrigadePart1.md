@@ -25,7 +25,7 @@ After character controllers I then made boundaries so the player wouldn’t go o
 
 After seeing how sprites interact with this world I feel as if I can take the next steps into a 2.5-D game (where the world and characters are 3-D but the player only interacts with the world in a 2-D way).
 
-![The New Super Marios - screenshot](https://i1.wp.com/www.pressthebuttons.com/images/nsmbwhd06.jpg)
+![The New Super Marios - screenshot]({{site.url}}/assets/images/dev_diary_defense_brigade_part_1/nsmbwhd06.jpg)
 <em style="display: block">The New Super Mario Bros is an example of a 2.5-D game, where Mario and the enemies are 3-D but the game is played 2-D, the same way as the original.</em>
 
 That’s it for now. For more in my development adventure, see the next dev diary post 😊

@@ -5,7 +5,7 @@ date:   2016-05-16 16:39:32 -0400
 #categories:  [ "2D", "Game Design", "Game Dev", "Game Development", "Unity", "Unity3D", "Video Games" ]
 ---
 
-A little while ago I made a first draft of a game called [Defense Brigade]({{site.url}}/2015/11/25/defenseBrigadeGameDesignwithUnity3D.html) which you can play [here](http://defensebrigade.azurewebsites.net/). While making it, I started publishing [dev diaries]({{ site.url }}/2015/11/24/defenseBrigadeGameDesignwithUnity3D.html) as a way to track my progress and mention things that might have tripped me up.
+A little while ago I made a first draft of a game called [Defense Brigade]({{site.url}}/2015/11/25/defenseBrigadeGameDesignwithUnity3D.html) which you can play [here](http://defensebrigade.azurewebsites.net/). While making it, I started publishing [dev diaries]({{site.url}}/2015/11/24/defenseBrigadeGameDesignwithUnity3D.html) as a way to track my progress and mention things that might have tripped me up.
 
 Well, I decided to turn it into a real full fledged game to be ported to a store. I knew this was going to be a rather large task, there’s a million ways to improve what I had made from the original Defense Brigade. Here were some thoughts.
 
@@ -15,7 +15,7 @@ Well, I decided to turn it into a real full fledged game to be ported to a store
 Seems like I got my work cut out for me. <br />
 While I am a person of many talents, art is not one of them. So far everything I’ve done has used open game art and I wanted something a little more custom. The first thing I did was talk to a good artist friend of mine, [Dominic D’Andrea](http://deadbirdart.weebly.com/), as their art is multi stylistic. We collaborated on art and story, and I had decided I wanted to go for a Tim Burton-esque creepy vibe. They took my notes and ran with it. Here’s an example of the assets created.
 
-![Art assets L to R: Bat Enemy, Child, Cat Doll, Squid Enemy](http://i0.wp.com/deadbirdart.weebly.com/uploads/7/9/1/0/79109740/7081426_orig.jpg)
+![Art assets L to R: Bat Enemy, Child, Cat Doll, Squid Enemy]({{site.url}}/assets/images/dev_diary_defense_brigade_part_1/7081426_orig.jpg)
 <em style="display: block;">Art assets L to R: Bat Enemy, Child, Cat Doll, Squid Enemy</em>
 
 Before I sat down to address some of the issues above, I realized I would also need to animate the art assets. While animation is a much lower priority than game mechanics, it was crucial that I understand enough about the process to give enough direction to my artist before they drew the assets. For example, I knew I would need to animate the different sections of the cat doll so I requested that the file sent to me be not of the cat doll pictured above, but rather have the limbs and body be spread out next to each other for me to animate individually.

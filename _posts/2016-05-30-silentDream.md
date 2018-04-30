@@ -27,13 +27,13 @@ Get it for Android on the Google Play store [here](https://play.google.com/store
 
 Get it on your Windows 10 desktop [here](https://www.microsoft.com/store/apps/9NBLGGH4RSRB)!
 
-Possibly coming for iOS. Stay tuned! In the meantime, check out the [developer diaries]({{ site.url }}/2015/11/24/devDiarySilentDreamPart1.html)!
+Possibly coming for iOS. Stay tuned! In the meantime, check out the [developer diaries]({{site.url}}/2015/11/24/devDiarySilentDreamPart1.html)!
 
 # Github Repo
 Link to the Github repository [here](https://github.com/ashanhol/Silent-Dream). Learn what goes into making a finished game!
 
 # Credits
-Game by [Adina Shanholtz]({{ site.url }}). Story and art by [Dominic D’Andrea](https://deadbirdart.weebly.com/).
+Game by [Adina Shanholtz]({{site.url}}). Story and art by [Dominic D’Andrea](https://deadbirdart.weebly.com/).
 
 Adina and Dominic have been friends since college. Adina, wanting the experience of releasing a
 polished, finished game, sought out her multi­talented friend Dominic to draw the art assets. As game
