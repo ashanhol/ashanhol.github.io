@@ -7,7 +7,7 @@ date:   2016-11-21 14:46:14 -0400
 
 It’s been a while since I made a blog post. Looking back, seems like I jumped from project to project, since the last thing I did was release [Silent Dream]({{site.url}}/2016/11/21/silentDream.html). I’m excited to talk about what I’ve been up to!
 
-The last four months I have been contributing to an open source project called [JabbR](https://github.com/MachUpskillingFY17/JabbR-Core. I’ve learned so much from this experience, I’m breaking it up into other blog posts about our [team process]({{site.url}}/2016/12/14/open-source-team-contribution-process.html), .NET Core technology, and bundling.
+The last four months I have been contributing to an open source project called [JabbR](https://github.com/MachUpskillingFY17/JabbR-Core). I’ve learned so much from this experience, I’m breaking it up into other blog posts about our [team process]({{site.url}}/2016/12/14/open-source-team-contribution-process.html), .NET Core technology, and bundling.
 
 In this particular post, I’ll discuss what it means to [have a project be open source]({{site.url}}/2016/11/21/contributing-to-open-source.html#what-is-open-source), how to [contribute to open source]({{site.url}}/2016/11/21/contributing-to-open-source.html#how-to-contribute) projects, and give an [overview of the project]({{site.url}}/2016/11/21/contributing-to-open-source.html#what-is-jabbr) I worked on.
 
