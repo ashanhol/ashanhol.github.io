@@ -61,8 +61,13 @@ First you have to build a Visual Studio solution, which you can do from the Holo
 ![Build]({{site.url}}/assets/images/fruit_warrior/build.png)
 
 # Import Holograms
-1. You can feel free to use your own models. If you want to use my fruit objects (crafted by the talented [Kat Park](https://www.katalinapark.com/)), download the finished version of this project. Scroll up to the top of this page for the link to the finished Github repo.
-2. **In this order**: Drag the Holograms folder (FruitWarriorMR-master/Assets/Holograms) from the completed Github repo into the “OurAssets” folder in your Unity project. **Then**, drag the Prefabs folder (FruitWarriorMR-master/Assets/Prefabs) from the completed Github repo into the “OurAssets” folder in your Unity project. This order matters, as the Prefabs are relying on information about the models in the Holograms folder. They won’t render properly without it.
+### 1. You can feel free to use your own models. 
+* If you want to use my fruit objects (crafted by the talented [Kat Park](https://www.katalinapark.com/)), download the finished version of this project. Scroll up to the top of this page for the link to the finished Github repo.
+
+### 2. **In this order**: 
+* Drag the Holograms folder (FruitWarriorMR-master/Assets/Holograms) from the completed Github repo into the “OurAssets” folder in your Unity project. 
+* **Then**, drag the Prefabs folder (FruitWarriorMR-master/Assets/Prefabs) from the completed Github repo into the “OurAssets” folder in your Unity project. 
+* This order matters, as the Prefabs are relying on information about the models in the Holograms folder. They won’t render properly without it.
 
 ![Hologams Folder]({{site.url}}/assets/images/fruit_warrior/holograms-folder.png)
 
@@ -91,7 +96,8 @@ The HoloToolkit has prefabs that let you use the HoloLens created mesh of your p
 # Spawn Fruit
 Now that our world is set up, it’s time to make some falling fruit! Feel free to use the finished scripts in the Github repo, or follow along.
 
-### 1. Create a new folder in “OurAssets” called “Scripts”. In the “Scripts” folder, create a new C# script called GameController.
+### 1. Create a new folder in “OurAssets” called “Scripts”. 
+* In the “Scripts” folder, create a new C# script called GameController.
 
 ![GameController script]({{site.url}}/assets/images/fruit_warrior/gamecontroller-script.png)
 
@@ -161,11 +167,14 @@ public class GameController : MonoBehaviour {
 
 ![GameController Object]({{site.url}}/assets/images/fruit_warrior/gamecontroller-object.png)
 
-### 4. Drag the GameController script onto the GameController Object. Set the values as per the picture below.
+### 4. Drag the GameController script onto the GameController Object. 
+* Set the values as per the picture below.
 
 ![Set values in GameController Script]({{site.url}}/assets/images/fruit_warrior/set-values-in-gamecontroller-script.png)
 
-### 5. If you play your game on the emulator or device, fruit will spawn and bounce off the floor. But that fruit is falling really fast! Let’s change the gravity so the fruit falls slower. In Menu:Edit->Project Settings->Physics, change Gravity Y from -9.81 to -.81.
+### 5. If you play your game on the emulator or device, fruit will spawn and bounce off the floor. 
+* But that fruit is falling really fast! Let’s change the gravity so the fruit falls slower. 
+* In Menu:Edit->Project Settings->Physics, change Gravity Y from -9.81 to -.81.
 
 ![Defying Gravity]({{site.url}}/assets/images/fruit_warrior/defying-gravity.png)
 
@@ -181,7 +190,8 @@ Create a new 3D Plane named DeadZone, and give it the “Finish” tag. Change i
 # Game Logic
 We have most of the pieces, now it’s time to put them together!
 
-1. In our GameController script, we’re going to add a couple of new things. We’re going to add some logic to have a timer count down until the end of the level, a function that will add to our score when we get a fruit, and a function that will clear the field if we tap a bomb.
+### 1. In our GameController script, we’re going to add a couple of new things. 
+* We’re going to add some logic to have a timer count down until the end of the level, a function that will add to our score when we get a fruit, and a function that will clear the field if we tap a bomb.
 
 ```cs
 //Adds Score when tapping fruit
@@ -214,7 +224,10 @@ public void BombClear()
 
 You might have noticed if you click on any of the fruit/bomb prefabs, there’s a “missing script” in the Inspector. We’re going to fix that now!
 
-2. In the OurAssets -> Scripts folder, create a new C# script named FallingObjects. (Or drag and drop the FruitFall script from the finished Github repo. We’ll be attaching the script to the bomb, which is not a fruit- hence the name change.) The script below will destroy the gameobject it’s attached to (the fruit/bomb) if it collides with the deadZone and will react if it’s tapped, either triggering the BombClear() method or adding to our score. We’re using the IInputClickHandler interface provided to us by the HoloToolkit to recognize the click/tap gesture. You can read more about that here.
+### 2. In the OurAssets -> Scripts folder, create a new C# script named FallingObjects. 
+* (Or drag and drop the FruitFall script from the finished Github repo. We’ll be attaching the script to the bomb, which is not a fruit- hence the name change.) 
+* The script below will destroy the gameobject it’s attached to (the fruit/bomb) if it collides with the deadZone and will react if it’s tapped, either triggering the BombClear() method or adding to our score. 
+* We’re using the IInputClickHandler interface provided to us by the HoloToolkit to recognize the click/tap gesture. You can read more about that here.
 
 ```cs
 using HoloToolkit.Unity.InputModule;
@@ -265,26 +278,31 @@ public class FallingObjects : MonoBehaviour, IInputClickHandler{
 }
 ```
 
-3. Drag the FallingObjects script onto each prefab where it says “Missing Script”.
+### 3. Drag the FallingObjects script onto each prefab where it says “Missing Script”.
 
 # Spatial Sound
 Now that our fruit is falling, we have no idea where they are! Sound will help us pinpoint where around us the fruit is falling.
 
-1. Make a new folder in “OurAssets named “Sounds”. Drag the files from the “Sounds” folder in the finished Github repo, into our newly created Sounds folder. You can also use your own “bomb explosion” sound and “falling” sound.
-2. In Unity select from the top menu Edit > Project Settings > Audio. In the Inspector Panel on the right side, find the Spatializer Plugin setting and select MS HRTF Spatializer.
+### 1. Make a new folder in “OurAssets named “Sounds”. Drag the files from the “Sounds” folder in the finished Github repo, into our newly created Sounds folder. 
+* You can also use your own “bomb explosion” sound and “falling” sound.
+
+### 2. In Unity select from the top menu Edit > Project Settings > Audio. 
+* In the Inspector Panel on the right side, find the Spatializer Plugin setting and select MS HRTF Spatializer.
 
 ![Spatializer plugin]({{site.url}}/assets/images/fruit_warrior/spatializer-plugin.png)
 
-3. On each fruit/bomb prefab, there should be an Audio Source. Change these things for each one (or change for one and copy/paste):
-    * Drag fallingsound1.wav from the “Sounds” folder onto AudioClip.
-    * Check the Spatialize property.
-    * Check the Play On Awake.
-    * Change Spatial Blend to 3D by dragging the slider all the way to the right. The value should change from 0 to 1 when you move the slider.
-    * Expand 3D Sound Settings, and enter 0.1 for Doppler Level.
-    * Set Volume Rolloff to Logarithmic Rolloff.
-    * Set Max Distance to 20.
-Click on the GameController prefab in the Hierarchy, and add an Audio Source component with the same values as the prefab, but change the AudioClip set to “bombsound.wav” and uncheck Play On Awake.
-Now we’re going to add some logic to our scripts to determine when we should or shouldn’t play the sounds. In the FallingObject script, add an AudioSource objectSound variable, get the sound in Start(), and pause it if we hit the ground.
+### 3. On each fruit/bomb prefab, there should be an Audio Source. Change these things for each one (or change for one and copy/paste):
+* Drag fallingsound1.wav from the “Sounds” folder onto AudioClip.
+* Check the Spatialize property.
+* Check the Play On Awake.
+* Change Spatial Blend to 3D by dragging the slider all the way to the right. The value should change from 0 to 1 when you move the slider.
+* Expand 3D Sound Settings, and enter 0.1 for Doppler Level.
+* Set Volume Rolloff to Logarithmic Rolloff.
+* Set Max Distance to 20.
+
+### 4. Click on the GameController prefab in the Hierarchy, and add an Audio Source component with the same values as the prefab, but change the AudioClip set to “bombsound.wav” and uncheck Play On Awake.
+
+### 5. Now we’re going to add some logic to our scripts to determine when we should or shouldn’t play the sounds. In the FallingObject script, add an AudioSource objectSound variable, get the sound in Start(), and pause it if we hit the ground.
 
 ```cs
 //...
@@ -341,13 +359,22 @@ void Start () {
 # “Scoreboard”
 Let’s display our score and time left to the player! Working with UI text in Unity with the HoloLens is a little different than normal. Luckily, the HoloToolkit has some nifty prefabs we can use! Read more on HoloToolkit UI here!
 
-1. Drag the 3DTextPrefab in Assets:HoloToolkit->UI->Prefabs into your Hierarchy and rename it ScoreBoardText. Click on ScoreBoardText and click the drop down arrow on the Shader at the bottom of the inspector. Import the font you want to use (I already imported Segoe UI in Holograms->Materials) and drag the font texture into the shader. See the picture for more detail. Also make sure to drag the font (in our case Segoe UI) under “Font” in the Text Mesh component.
+### 1. Drag the 3DTextPrefab in Assets:HoloToolkit->UI->Prefabs into your Hierarchy and rename it ScoreBoardText. 
+* Click on ScoreBoardText and click the drop down arrow on the Shader at the bottom of the inspector. 
+* Import the font you want to use (I already imported Segoe UI in Holograms->Materials) and drag the font texture into the shader. 
+* See the picture for more detail. 
+* Also make sure to drag the font (in our case Segoe UI) under “Font” in the Text Mesh component.
 
 ![Font Shader]({{site.url}}/assets/images/fruit_warrior/font-shader.png)
 
-2. Set the text in Text Mesh of ScoreBoardText to “Score: 0”. Make sure the Z position in the transform is set to 2 and the scale values for X, Y, and Z are all 0.009.
-3. Duplicate (ctrl+D) ScoreBoardText and rename it Timer. Change the text in Text Mesh to “Timer: 120” and set its Y Position to 0.05.
-4. Now we edit our scripts to update the text game objects to reflect our time and score. Our main addition to GameController is adding and calling UpdateTextDisplay(), which updates the text game object with our values.
+### 2. Set the text in Text Mesh of ScoreBoardText to “Score: 0”. 
+* Make sure the Z position in the transform is set to 2 and the scale values for X, Y, and Z are all 0.009.
+
+### 3. Duplicate (ctrl+D) ScoreBoardText and rename it Timer. 
+* Change the text in Text Mesh to “Timer: 120” and set its Y Position to 0.05.
+
+### 4. Now we edit our scripts to update the text game objects to reflect our time and score. 
+* Our main addition to GameController is adding and calling UpdateTextDisplay(), which updates the text game object with our values.
 
 ```
 using System.Collections;
@@ -469,29 +496,39 @@ public class GameController : MonoBehaviour {
 }
 ```
 
-5. Save your code and switch back to the Unity editor. When you click on the GameController object, you’ll see in the Inspector that two new fields popped up in the GameController script. Drag the ScoreBoardText and Timer game objects from the Hierarchy into those fields. They’ll now update!
+### 5. Save your code and switch back to the Unity editor. 
+* When you click on the GameController object, you’ll see in the Inspector that two new fields popped up in the GameController script. 
+* Drag the ScoreBoardText and Timer game objects from the Hierarchy into those fields. They’ll now update!
 
 # Voice Commands
 Now for some extra fun. We’re going to add in a couple of voice commands to enrich our experience. If you want to learn more about this topic, check out the [Voice module on Holographic Academy](https://developer.microsoft.com/en-us/windows/holographic/holograms_212).
 
-1. Open up the project settings where we enabled Spatial Perception. Enable the Microphone capability so we can hear voice commands.
-2. Make a new Scene named Menu and save it in your Scenes folder. Open the Menu scene if you haven’t yet.
-3. Bring up the Build Settings under Menu: File -> Build Settings. Make sure your Menu scene is added to the Scenes In Build (click Add Open Scenes to add it) and make sure Menu is before Main so it loads first.
+### 1. Open up the project settings where we enabled Spatial Perception. 
+* Enable the Microphone capability so we can hear voice commands.
+
+### 2. Make a new Scene named Menu and save it in your Scenes folder. 
+* Open the Menu scene if you haven’t yet.
+
+### 3. Bring up the Build Settings under Menu: File -> Build Settings. 
+* Make sure your Menu scene is added to the Scenes In Build (click Add Open Scenes to add it) and make sure Menu is before Main so it loads first.
 
 ![Build Settings]({{site.url}}/assets/images/fruit_warrior/build-settings.png)
 
-4. Once again, delete the main camera and add the HoloLensCamera prefab, the InputManager prefab, and the CursorWithFeedback prefab.
-5. We’re going to make a “button” that we can tap to start the game, but also responds to a voice command to start as well!
-6. Make a 3D cube named Button and set its Transform Position to X: 0 Y: 0 Z: 2 and its Scale to X: 0.5 Y: 0.2 Z: 0.01.
-7. Drag the 3DTextPrefab into the Hierarchy once more, and rename the game object to StartText. Make sure to change the font settings to Segoe UI or the font of your choice.
+### 4. Once again, delete the main camera and add the HoloLensCamera prefab, the InputManager prefab, and the CursorWithFeedback prefab.
 
-<!-- How am I gonna do the line breaks here? -->
-Change the text mesh to say:
-Look Around The Room!
-Then Tap To Start
-(Or say “Start Game”)
+### 5. We’re going to make a “button” that we can tap to start the game, but also responds to a voice command to start as well!
 
-7. Create a new C# script in your scripts folder called MenuButton. Drag the MenuButton script onto the Button (cube) game object. The script is as follows.
+### 6. Make a 3D cube named Button and set its Transform Position to X: 0 Y: 0 Z: 2 and its Scale to X: 0.5 Y: 0.2 Z: 0.01.
+
+### 7. Drag the 3DTextPrefab into the Hierarchy once more, and rename the game object to StartText. 
+* Make sure to change the font settings to Segoe UI or the font of your choice.
+* Change the text mesh to say:
+    * Look Around The Room!
+    * Then Tap To Start
+    * (Or say “Start Game”)
+
+### 7. Create a new C# script in your scripts folder called MenuButton. 
+* Drag the MenuButton script onto the Button (cube) game object. The script is as follows:
 
 ```cs
 using HoloToolkit.Unity.InputModule;
@@ -515,7 +552,10 @@ public class MenuButton : MonoBehaviour, IInputClickHandler{
 }
 ```
 
-8. Now our button will start the game if tapped! But we also want it to respond to voice. Create another C# script named SpeechManager and also drag it onto the button game object. When we say “Start Game”, it will broadcast calling the “OnStart” function, which we have in the MenuButton script. We also have some other keywords that’ll be used during the game.
+### 8. Now our button will start the game if tapped! But we also want it to respond to voice. 
+* Create another C# script named SpeechManager and also drag it onto the button game object. 
+* When we say “Start Game”, it will broadcast calling the “OnStart” function, which we have in the MenuButton script. 
+* We also have some other keywords that’ll be used during the game.
 
 ```cs
 using System.Collections.Generic;
@@ -577,8 +617,12 @@ public class SpeechManager : MonoBehaviour
 }
 ```
 
-9. Switch back to the “Main” scene (your main gameplay level). Drag the Speech Manager script onto your GameController object.
-10. As you might have seen in the Speech Manager script above, there are a couple of voice commands that we haven’t yet coded in. We’ll be adding two functions to the GameController script, OnRestart() and OnMenu(), so that “Restart Game” will restart the game and “Main Menu” will take us back to the main menu. We’ll also update FixedUpdate() so that we go back to the main menu when the game ends.
+### 9. Switch back to the “Main” scene (your main gameplay level). 
+* Drag the Speech Manager script onto your GameController object.
+
+### 10. As you might have seen in the Speech Manager script above, there are a couple of voice commands that we haven’t yet coded in. 
+* We’ll be adding two functions to the GameController script, OnRestart() and OnMenu(), so that “Restart Game” will restart the game and “Main Menu” will take us back to the main menu. 
+* We’ll also update FixedUpdate() so that we go back to the main menu when the game ends.
 
 ```cs
 using UnityEngine.SceneManagement;
